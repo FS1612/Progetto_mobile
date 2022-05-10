@@ -1,0 +1,226 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'it' Physical Memory: 3974 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/39388/OneDrive/Desktop/progettofinale/Car_simulator
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49607
+Successfully changed project path to: C:/Users/39388/OneDrive/Desktop/progettofinale/Car_simulator
+C:/Users/39388/OneDrive/Desktop/progettofinale/Car_simulator
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 3312.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/39388/OneDrive/Desktop/progettofinale/Car_simulator/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 610 (ID=0x5906)
+    Vendor:   
+    VRAM:     1987 MB
+    Driver:   26.20.100.7372
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.035533 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 225.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.850 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2851ms)
+		BeginReloadAssembly (314ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (2151ms)
+			LoadAssemblies (311ms)
+			RebuildTransferFunctionScriptingTraits (19ms)
+			SetupTypeCache (746ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (705ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (226ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.061431 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 198.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.380 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3392ms)
+		BeginReloadAssembly (462ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (2775ms)
+			LoadAssemblies (450ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (912ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (1020ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (199ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (587ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (48ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.4 MB.
+System memory in use after: 150.2 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2679.
+Total: 8.886800 ms (FindLiveObjects: 0.488900 ms CreateObjectMapping: 0.237400 ms MarkObjects: 6.823600 ms  DeleteObjects: 1.334100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/terrenodamiano.unity
+  artifactKey: Guid(de5622d8dabb4554f8875dd0bc338cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/terrenodamiano.unity using Guid(de5622d8dabb4554f8875dd0bc338cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdd88f38ef72b36d5b9535ea980f470') in 0.039472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 121.695037 seconds.
+  path: Assets/WhiteCity/Prefabs
+  artifactKey: Guid(e07510f3b700bb449a39507011c32b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs using Guid(e07510f3b700bb449a39507011c32b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c536758b0b046c30ebddb2a0a16e9b7') in 0.068159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.184333 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings
+  artifactKey: Guid(762cca0361b6cb84f8c7bfaced9a01ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings using Guid(762cca0361b6cb84f8c7bfaced9a01ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5ea5a756043bbc083050db26327f5d') in 0.016859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/3.1.prefab
+  artifactKey: Guid(04c19027b30bcaa489b3ec4b42040dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/3.1.prefab using Guid(04c19027b30bcaa489b3ec4b42040dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7286f01ec900b0d13f638c5ab6fa78') in 1.725762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/2.prefab
+  artifactKey: Guid(3a043cf95d828e44da52277a60eb137b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/2.prefab using Guid(3a043cf95d828e44da52277a60eb137b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0f878a0f9e126cb823439c30bebdfd') in 0.120543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/11.prefab
+  artifactKey: Guid(b00208f06b04b2447af23a7247883af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/11.prefab using Guid(b00208f06b04b2447af23a7247883af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341b068b42af231b4633e89586ab8408') in 0.069313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/6.prefab
+  artifactKey: Guid(ed8ca91ea98dcb54397b4145af6c0b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/6.prefab using Guid(ed8ca91ea98dcb54397b4145af6c0b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e12aadcb2f2276092f916c664f859c4') in 0.085029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/1.prefab
+  artifactKey: Guid(2567255f9a679cd429a31eb02ba54ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/1.prefab using Guid(2567255f9a679cd429a31eb02ba54ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e7e086e09b4a29c3162d3bfc316de1') in 1.943528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/12.prefab
+  artifactKey: Guid(b331863b8ea6edc4e93fc5d6f83dbac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/12.prefab using Guid(b331863b8ea6edc4e93fc5d6f83dbac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83eb68f85a4dd0ce7497a93b8da30d37') in 0.079172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/14.prefab
+  artifactKey: Guid(6e52f6e5c549dca4381c78a24c505338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/14.prefab using Guid(6e52f6e5c549dca4381c78a24c505338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee5dacd31164808f824ae01e39120ee') in 0.106659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/7.prefab
+  artifactKey: Guid(ae79364aca7e6e74b8b8d8300b504d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/7.prefab using Guid(ae79364aca7e6e74b8b8d8300b504d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdc0e926aa7ee11af20ad562177d0ea') in 0.196158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/10.prefab
+  artifactKey: Guid(955bf00fba2fee14696800975b5622e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/10.prefab using Guid(955bf00fba2fee14696800975b5622e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fb6b9d96343ccb9c03f499ac5ce410') in 0.135527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/4.prefab
+  artifactKey: Guid(75ce498590d12b14b97bb91249eee61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/4.prefab using Guid(75ce498590d12b14b97bb91249eee61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96506cfb2ba3eff05d8f672882ecad04') in 0.281854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/3.prefab
+  artifactKey: Guid(b8800faccef09f047b9aab74ce0d163d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/3.prefab using Guid(b8800faccef09f047b9aab74ce0d163d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd6f5cd05d5032263169e98a0665b0f') in 0.093823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/5.prefab
+  artifactKey: Guid(5268f3eea397dcb40925cb28a6e9ee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/5.prefab using Guid(5268f3eea397dcb40925cb28a6e9ee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37bd1acf2ce1545ad3d0c62d8315c5d') in 0.084580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/WhiteCity/Prefabs/Buildings/13.prefab
+  artifactKey: Guid(3e758f09cb4d777459433143fc3c7892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WhiteCity/Prefabs/Buildings/13.prefab using Guid(3e758f09cb4d777459433143fc3c7892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3aa9ca7249dcc8ec8804e68d93b697') in 0.101476 seconds 
