@@ -36,9 +36,12 @@ public class GameManager : MonoBehaviour
     private void Start()
     {//* valido per la mappa di prova : la posizione iniziale va stabilita in fase di avvio del gioco, in fase di precaricamento
 
-        PosizioneIniziale.x = 0.2f / Time.deltaTime;
-        PosizioneIniziale.y = 0.004f / Time.deltaTime;
-        PosizioneIniziale.z = 0.09999999f / Time.deltaTime;
+        //PosizioneIniziale.x = 0.2f / Time.deltaTime;
+        //PosizioneIniziale.y = 0.004f / Time.deltaTime;
+        //PosizioneIniziale.z = 0.09999999f / Time.deltaTime;
+        PosizioneIniziale.x = 299.0794f;
+        PosizioneIniziale.y = 0.103447f;
+        PosizioneIniziale.z = 149.2594f;
         AccelerometroAttivo = true;
         retromarcia = false;
      

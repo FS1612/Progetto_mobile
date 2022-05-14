@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4396049879597273464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4396049879597273462}
+  - component: {fileID: 4396049879597273465}
+  m_Layer: 0
+  m_Name: GUIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4396049879597273462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4396049879597273464}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1117.5505, y: 559.0472, z: -260.85638}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4396049879597273465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4396049879597273464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a744cd715a90f3f4281bb96e0a87a911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Canvas: {fileID: 0}
+  primoCambiamento: 1
+  ModificaAttiva: 0
+  testoAttivo: 1
+  Modificato: 0
+  acceleratoreAttuale: {x: 0, y: 0, z: 0}
+  frenoAttuale: {x: 0, y: 0, z: 0}
+  frenoamanoAttuale: {x: 0, y: 0, z: 0}
+  inverterAttuale: {x: 0, y: 0, z: 0}
+  joystickAttuale: {x: 0, y: 0, z: 0}
+  volanteAttuale: {x: 0, y: 0, z: 0}
+  opzioniAttuale: {x: 0, y: 0, z: 0}
+  barravitaAttuale: {x: 0, y: 0, z: 0}
+  fpsAttuale: {x: 0, y: 0, z: 0}
+  tachimetroAttuale: {x: 0, y: 0, z: 0}
+  acceleratoreDefault: {x: 0, y: 0, z: 0}
+  frenoDefault: {x: 0, y: 0, z: 0}
+  frenoamanoDefault: {x: 0, y: 0, z: 0}
+  inverterDefault: {x: 0, y: 0, z: 0}
+  joystickDefault: {x: 0, y: 0, z: 0}
+  volanteDefault: {x: 0, y: 0, z: 0}
+  opzioniDefault: {x: 0, y: 0, z: 0}
+  barravitaDefault: {x: 0, y: 0, z: 0}
+  fpsDefault: {x: 0, y: 0, z: 0}
+  tachimetroDefault: {x: 0, y: 0, z: 0}
+  ScaleFrenoDefault: {x: 0, y: 0, z: 0}
+  ScaleFrenoAManoDefault: {x: 0, y: 0, z: 0}
+  ScaleAcceleratoreDefault: {x: 0, y: 0, z: 0}
+  ScaleInverterDefault: {x: 0, y: 0, z: 0}
+  ScaleVolanteDefault: {x: 0, y: 0, z: 0}
+  ScaleJoistickDefault: {x: 0, y: 0, z: 0}
+  ScaleOpzioniDefault: {x: 0, y: 0, z: 0}
+  ScaleBarraVitaDefault: {x: 0, y: 0, z: 0}
+  ScaleFpsDefault: {x: 0, y: 0, z: 0}
+  ScaleTachimetroDefault: {x: 0, y: 0, z: 0}
+  ScaleFrenoAggiornata: {x: 0, y: 0, z: 0}
+  ScaleFrenoAManoAggiornata: {x: 0, y: 0, z: 0}
+  ScaleAcceleratoreAggiornata: {x: 0, y: 0, z: 0}
+  ScaleInverterAggiornata: {x: 0, y: 0, z: 0}
+  ScaleVolanteAggiornata: {x: 0, y: 0, z: 0}
+  ScaleJoistickAggiornata: {x: 0, y: 0, z: 0}
+  ScaleOpzioniAggiornata: {x: 0, y: 0, z: 0}
+  ScaleBarraVitaAggiornata: {x: 0, y: 0, z: 0}
+  ScaleFpsAggiornata: {x: 0, y: 0, z: 0}
+  ScaleTachimetroAggiornata: {x: 0, y: 0, z: 0}
+  ColoreHandleDefault: {r: 0, g: 0, b: 0, a: 0}
+  ColoreHandleAggiornato: {r: 0, g: 0, b: 0, a: 0}
+  ColoreCoronaDefault: {r: 0, g: 0, b: 0, a: 0}
+  ColoreCoronaAggiornato: {r: 0, g: 0, b: 0, a: 0}
+  SpriteHandleDefault: {fileID: 0}
+  SpriteHandleAggiornato: {fileID: 0}
+  SpriteCoronaDefault: {fileID: 0}
+  SpriteCoronaAggiornato: {fileID: 0}
+  joistickModificato: 0
+  impostazioniAttive: 0
+  oggetto: 
+  Sprite1Corona: {fileID: 21300000, guid: 5b56d9fa0e8bd6e409ed188db38a692c, type: 3}
+  Sprite2Corona: {fileID: 21300000, guid: 48c0d4d6bebaa934384b07aa1e2f8184, type: 3}
+  Sprite3Corona: {fileID: 21300000, guid: 84487d73ca4b791498332d8f6858417f, type: 3}
+  Sprite4Corona: {fileID: 21300000, guid: 2a1f3cba20f3e11498474a705db12fde, type: 3}
+  Sprite5Corona: {fileID: 21300000, guid: 54628aafa20f64b40ae661038ee7abf0, type: 3}
+  Sprite6Corona: {fileID: 21300000, guid: 4cbc879550e5e374a925e2e0a84d6f3c, type: 3}
+  Sprite1Handle: {fileID: 21300000, guid: 085185b08a40a924985bc0e4176edea6, type: 3}
+  Sprite2Handle: {fileID: 21300000, guid: 5eda94a9dcf71e445ad17e3c065d1460, type: 3}
+  Sprite3Handle: {fileID: 21300000, guid: 010a6e5305fa7004f89c5d317b7b47d4, type: 3}
+  Sprite4Handle: {fileID: 21300000, guid: f353d42d1db27ff42b78b28efd86b316, type: 3}
+  Sprite5Handle: {fileID: 21300000, guid: 3a74f678ee8f3bd49aacf3de1ae4bcaa, type: 3}
+  Sprite6Handle: {fileID: 21300000, guid: a6c56474666ce0647bdb766e9b4764b3, type: 3}
