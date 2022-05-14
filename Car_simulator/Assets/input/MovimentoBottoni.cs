@@ -121,16 +121,16 @@ public class MovimentoBottoni : MonoBehaviour
             else if(primoavvio)
             {
 
-                freno.transform.localScale += GUIManager.instance.GetScaleFrenoDefault();
-                frenoamano.transform.localScale += GUIManager.instance.GetScaleFrenoAManoDefault();
-                acceleratore.transform.localScale += GUIManager.instance.GetScaleAcceleratoreDefault();
-                inverter.transform.localScale += GUIManager.instance.GetScaleInverterDefault();
-                volante.transform.localScale += GUIManager.instance.GetScaleVolanteDefault();
-                joistick.transform.localScale += GUIManager.instance.GetScaleJoistickDefault();
-                opzioni.transform.localScale += GUIManager.instance.GetScaleOpzioniDefault();
-                barravita.transform.localScale += GUIManager.instance.GetScaleBarraVitaDefault();
-                fps.transform.localScale += GUIManager.instance.GetScaleFpsDefault();
-                tachimetro.transform.localScale += GUIManager.instance.GetScaleTachimetroDefault();
+                //freno.transform.localScale += GUIManager.instance.GetScaleFrenoDefault();
+                //frenoamano.transform.localScale += GUIManager.instance.GetScaleFrenoAManoDefault();
+                //acceleratore.transform.localScale += GUIManager.instance.GetScaleAcceleratoreDefault();
+                //inverter.transform.localScale += GUIManager.instance.GetScaleInverterDefault();
+                //volante.transform.localScale += GUIManager.instance.GetScaleVolanteDefault();
+                //joistick.transform.localScale += GUIManager.instance.GetScaleJoistickDefault();
+                //opzioni.transform.localScale += GUIManager.instance.GetScaleOpzioniDefault();
+                //barravita.transform.localScale += GUIManager.instance.GetScaleBarraVitaDefault();
+                //fps.transform.localScale += GUIManager.instance.GetScaleFpsDefault();
+                //tachimetro.transform.localScale += GUIManager.instance.GetScaleTachimetroDefault();
                
 
                 //frenoamano.transform.localPosition=(  GUIManager.instance.GetFrenoAManoDefault());
