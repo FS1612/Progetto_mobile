@@ -84,6 +84,7 @@ candidates check time : 18ms
 console write time    : 0ms
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [api-updater (non-obsolete-error-filter)] 14/05/2022 15:40:41 : Starting C:/Program Files/Unity1/2020.3.30f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
 [api-updater (non-obsolete-error-filter)] 
 ----------------------------------
@@ -188,3 +189,5 @@ console write time    : 0ms
 >>>>>>> parent of 93e6b7d (MenuIniziale)
 =======
 >>>>>>> parent of c5cb238 (Merge branch 'Francesco')
+=======
+>>>>>>> parent of 364e22f (correzione mappa)
