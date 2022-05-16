@@ -14,7 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menuimpostazioni.unity
     guid: d4d178077c020f747a582ccbda34b839
+<<<<<<< HEAD
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+=======
+>>>>>>> parent of 93e6b7d (MenuIniziale)
   m_configObjects: {}

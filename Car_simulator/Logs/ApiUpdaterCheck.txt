@@ -8,6 +8,7 @@ C# parse time         : 227ms
 candidates check time : 59ms
 console write time    : 0ms
 
+<<<<<<< HEAD
 [api-updater (non-obsolete-error-filter)] 14/04/2022 15:22:53 : Starting C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
 [api-updater (non-obsolete-error-filter)] 
 ----------------------------------
@@ -182,3 +183,5 @@ C# parse time         : 291ms
 candidates check time : 66ms
 console write time    : 0ms
 
+=======
+>>>>>>> parent of 93e6b7d (MenuIniziale)
