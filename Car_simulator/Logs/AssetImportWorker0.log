@@ -16,6 +16,7 @@ C:/Users/39388/OneDrive/Desktop/progettofinale/Car_simulator
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< HEAD
+<<<<<<< HEAD
 62702
 Successfully changed project path to: C:/Users/silvi/Documents/Progetto_mobile/Car_simulator
 C:/Users/silvi/Documents/Progetto_mobile/Car_simulator
@@ -28,6 +29,13 @@ C:/Users/39388/OneDrive/Desktop/progettofinale/Car_simulator
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 334.10 ms, found 4 plugins.
 >>>>>>> parent of 93e6b7d (MenuIniziale)
+=======
+57236
+Successfully changed project path to: C:/Users/39388/OneDrive/Desktop/progettofinale/Car_simulator
+C:/Users/39388/OneDrive/Desktop/progettofinale/Car_simulator
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 929.55 ms, found 4 plugins.
+>>>>>>> parent of c5cb238 (Merge branch 'Francesco')
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -38,16 +46,22 @@ Direct3D:
     Renderer: Intel(R) HD Graphics 610 (ID=0x5906)
     Vendor:   
 <<<<<<< HEAD
+<<<<<<< HEAD
     VRAM:     3917 MB
     Driver:   30.0.101.1029
 =======
     VRAM:     1987 MB
     Driver:   26.20.100.7372
 >>>>>>> parent of 93e6b7d (MenuIniziale)
+=======
+    VRAM:     1987 MB
+    Driver:   26.20.100.7372
+>>>>>>> parent of c5cb238 (Merge branch 'Francesco')
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 <<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
 Begin MonoManager ReloadAssembly
@@ -77,10 +91,26 @@ Domain Reload Profiling:
 	ReloadAssembly (2367ms)
 		BeginReloadAssembly (472ms)
 >>>>>>> parent of 93e6b7d (MenuIniziale)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017723 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 189.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.842 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2843ms)
+		BeginReloadAssembly (393ms)
+>>>>>>> parent of c5cb238 (Merge branch 'Francesco')
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (310ms)
@@ -114,12 +144,30 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (186ms)
 				ProcessInitializeOnLoadMethodAttributes (139ms)
 >>>>>>> parent of 93e6b7d (MenuIniziale)
+=======
+			CreateAndSetChildDomain (6ms)
+		EndReloadAssembly (2158ms)
+			LoadAssemblies (382ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (770ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (732ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (190ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (198ms)
+>>>>>>> parent of c5cb238 (Merge branch 'Francesco')
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.005462 seconds.
 Begin MonoManager ReloadAssembly
@@ -159,11 +207,52 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+=======
+Registered in 0.092904 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 135.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.348 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3350ms)
+		BeginReloadAssembly (366ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (2823ms)
+			LoadAssemblies (273ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (838ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (238ms)
+			SetupLoadedEditorAssemblies (965ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (649ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
+>>>>>>> parent of c5cb238 (Merge branch 'Francesco')
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2131 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 150.8 MB.
 System memory in use after: 150.4 MB.
 
+<<<<<<< HEAD
 Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2640.
 Total: 2.582900 ms (FindLiveObjects: 0.131800 ms CreateObjectMapping: 0.035700 ms MarkObjects: 2.080700 ms  DeleteObjects: 0.333800 ms)
 =======
@@ -213,6 +302,31 @@ System memory in use after: 136.3 MB.
 Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2660.
 Total: 11.919600 ms (FindLiveObjects: 0.464400 ms CreateObjectMapping: 0.298200 ms MarkObjects: 9.860700 ms  DeleteObjects: 1.293300 ms)
 >>>>>>> parent of 93e6b7d (MenuIniziale)
+=======
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2679.
+Total: 10.378500 ms (FindLiveObjects: 0.628200 ms CreateObjectMapping: 0.708700 ms MarkObjects: 7.349700 ms  DeleteObjects: 1.688900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 132.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 97.7 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2679.
+Total: 39.856700 ms (FindLiveObjects: 2.913000 ms CreateObjectMapping: 0.694500 ms MarkObjects: 19.802500 ms  DeleteObjects: 16.431500 ms)
+>>>>>>> parent of c5cb238 (Merge branch 'Francesco')
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -226,6 +340,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
   path: Assets/menu.unity
   artifactKey: Guid(a589894ae7b02a14883212b8d051b5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -282,5 +397,16 @@ Received Import Request.
   path: Assets/New Terrain 1.asset
   artifactKey: Guid(1cdc660f34311ef418664d3b79d25d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/New Terrain 1.asset using Guid(1cdc660f34311ef418664d3b79d25d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cf75dfbc66daed64ea9ee4a350e26e') in 0.041594 seconds 
+=======
+  path: Assets/Menu.unity
+  artifactKey: Guid(e23574b13dbdba742963fbf5e3553d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu.unity using Guid(e23574b13dbdba742963fbf5e3553d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157eb91cd22e0816b9ee7dca6b6d6182') in 0.645993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.672418 seconds.
+  path: Assets/Scenes/terrenodamiano.unity
+  artifactKey: Guid(de5622d8dabb4554f8875dd0bc338cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/terrenodamiano.unity using Guid(de5622d8dabb4554f8875dd0bc338cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e65b4ead9a9b4e3dc1db7c9ab2463b') in 0.025509 seconds 
+>>>>>>> parent of c5cb238 (Merge branch 'Francesco')
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 >>>>>>> parent of 93e6b7d (MenuIniziale)

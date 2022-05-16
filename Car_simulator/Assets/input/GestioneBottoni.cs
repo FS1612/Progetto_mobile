@@ -51,9 +51,9 @@ public class GestioneBottoni : MonoBehaviour
     private void Awake()
     {
         
-        //Joistickattivo = GameManager.instance.getJoistick();
-        //tastiera = GameManager.instance.SoloTastieraGetter();
-        //sterzoAttivo = GameManager.instance.GetSterzoAttivo();
+        Joistickattivo = GameManager.instance.getJoistick();
+        tastiera = GameManager.instance.SoloTastieraGetter();
+        sterzoAttivo = GameManager.instance.GetSterzoAttivo();
     }
     private void Start()
     {
@@ -76,10 +76,7 @@ public class GestioneBottoni : MonoBehaviour
 
     void Update()
     {
-        Joistickattivo = GameManager.instance.getJoistick();
-        tastiera = GameManager.instance.SoloTastieraGetter();
-        sterzoAttivo = GameManager.instance.GetSterzoAttivo();
-
+        
         //fpsattivi = GameManager.instance.GetContatoreFpsAttivo();
         if (!TestoAttivo) { MostraTesti(); }
         VerificaStato();

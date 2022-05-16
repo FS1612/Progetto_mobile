@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
-#if UNITY_EDITOR
-public class ALIyerEdonAssets_Lighting : EditorWindow 
+
+public class ALIyerEdonAssets_Lighting : EditorWindow
 {
     [MenuItem("Window/Lighting Tools")]
     public static void ShowWindow()
@@ -253,5 +253,4 @@ public class Startup
             }
         }            
     }
-}
-#endif
+} 

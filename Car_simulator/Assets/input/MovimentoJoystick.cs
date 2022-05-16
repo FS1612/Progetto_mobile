@@ -20,7 +20,7 @@ public class MovimentoJoystick : MonoBehaviour
     private bool Retro;
     private void Awake()
     {
-        //attivo = GameManager.instance.getJoistick();
+        attivo = GameManager.instance.getJoistick();
         sterzo = controller.GetComponent<SterzoASchermo>();
         rot = controller.GetComponent<InputRotazione>();
         tastiera = controller.GetComponent<InputTastiera>();
@@ -29,7 +29,6 @@ public class MovimentoJoystick : MonoBehaviour
 
     void Update()
     {
-        attivo = GameManager.instance.getJoistick();
         Horizontal = joystick.Horizontal;
 
         //if (Vertical < 0) { GameManager.instance.SetRetromarcia(true); }
