@@ -134,3 +134,4 @@ Received Import Request.
   path: Assets/UniversalSDK/Demo/Scenes/LoginSettings.lighting
   artifactKey: Guid(87e1d84fd210a46499b8a25a54ff750a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/UniversalSDK/Demo/Scenes/LoginSettings.lighting using Guid(87e1d84fd210a46499b8a25a54ff750a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287692e90121f22e4e2f6bc8333afe35') in 0.043756 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
