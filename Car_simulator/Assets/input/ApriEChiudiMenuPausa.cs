@@ -63,10 +63,10 @@ public class ApriEChiudiMenuPausa : MonoBehaviour
        GameManager.instance.setPaused(false);
        
     }
-    public void Esci()
+    public void MenuIniziale()
     {
-        Application.Quit();
-        
+        SceneManager.LoadScene(2);
+
     }
     public void AttivaImpostazioni()
     {//* le scene sono indicizzate nella build il gioco ha indice 0, il menu ha indice 1

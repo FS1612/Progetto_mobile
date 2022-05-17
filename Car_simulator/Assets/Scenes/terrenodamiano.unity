@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -20024,7 +20024,11 @@ PrefabInstance:
       objectReference: {fileID: 554617601}
     - target: {fileID: 8170879827803287632, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Esci
+      value: MenuIniziale
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170879827803287634, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_Name
+      value: Menu Principale
       objectReference: {fileID: 0}
     - target: {fileID: 8170879827920001537, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -20210,6 +20214,10 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PremiAcceleratore
       objectReference: {fileID: 0}
+    - target: {fileID: 8170879828759321092, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_Text
+      value: Menu Principale
+      objectReference: {fileID: 0}
     - target: {fileID: 8170879829191867143, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -20232,7 +20240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8170879829414582334, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8170879829449915505, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
