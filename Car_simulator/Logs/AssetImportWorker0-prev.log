@@ -18,6 +18,7 @@ Logs/AssetImportWorker0.log
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 51432
 Successfully changed project path to: C:/Users/silvi/Documents/Progetto_mobile/Car_simulator
 C:/Users/silvi/Documents/Progetto_mobile/Car_simulator
@@ -25,6 +26,8 @@ Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 188.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.01 ms.
 =======
+=======
+>>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
 =======
 >>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
 =======
@@ -50,6 +53,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,10 +115,26 @@ Domain Reload Profiling:
 	ReloadAssembly (3240ms)
 		BeginReloadAssembly (329ms)
 >>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007130 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 371.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.239 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3240ms)
+		BeginReloadAssembly (329ms)
+>>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,6 +185,17 @@ Domain Reload Profiling:
 			SetupLoadedEditorAssemblies (1853ms)
 				LogAssemblyErrors (0ms)
 >>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
+=======
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (2709ms)
+			LoadAssemblies (324ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (1853ms)
+				LogAssemblyErrors (0ms)
+>>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
 				InitializePlatformSupportModulesInManaged (1006ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (371ms)
@@ -173,6 +204,9 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (70ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
+=======
 >>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
 =======
 >>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
@@ -184,6 +218,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -345,6 +380,44 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 >>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
+=======
+Registered in 0.056903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 198.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.508 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3513ms)
+		BeginReloadAssembly (404ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (2906ms)
+			LoadAssemblies (356ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1043ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (1055ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (199ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (650ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+>>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
 Refreshing native plugins compatible for Editor in 1.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -356,6 +429,9 @@ Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2693.
 Total: 6.852500 ms (FindLiveObjects: 0.354100 ms CreateObjectMapping: 0.180800 ms MarkObjects: 5.163500 ms  DeleteObjects: 1.151500 ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
+=======
 >>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
 =======
 >>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
@@ -374,6 +450,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -422,6 +499,13 @@ Start importing Assets/UniversalSDK/Plugins/Android/FirebaseApp.androidlib using
 Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Roads using Guid(23bdc8dcf4861b84fac07c2be124a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7d2c8dc3b36687b37c32f46babf77b') in 0.025405 seconds 
 ========================================================================
 Received Import Request.
+=======
+  path: Assets/ModularLowpolyStreetsFree/Prefabs/Roads
+  artifactKey: Guid(23bdc8dcf4861b84fac07c2be124a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularLowpolyStreetsFree/Prefabs/Roads using Guid(23bdc8dcf4861b84fac07c2be124a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7d2c8dc3b36687b37c32f46babf77b') in 0.025405 seconds 
+========================================================================
+Received Import Request.
+>>>>>>> 4bb924a56c05746b757f8033f78356ce3c7cc3df
 =======
   path: Assets/ModularLowpolyStreetsFree/Prefabs/Roads
   artifactKey: Guid(23bdc8dcf4861b84fac07c2be124a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
