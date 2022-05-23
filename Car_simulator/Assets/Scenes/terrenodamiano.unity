@@ -15504,7 +15504,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfec8d9b723b08e4ab4463a1b8f9cd7d, type: 3}
-<<<<<<< HEAD
 --- !u!1001 &937484114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15574,8 +15573,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa94a0fc203a0fa4e93aa20245f319b0, type: 3}
-=======
->>>>>>> parent of 12f4f44 (silvia)
 --- !u!1 &938715375 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6467732596609982005, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
@@ -32487,7 +32484,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfec8d9b723b08e4ab4463a1b8f9cd7d, type: 3}
-<<<<<<< HEAD
 --- !u!1001 &1918189304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32562,8 +32558,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6695084668892933283, guid: 28a69432604101f4e8b2e93b7d82201d, type: 3}
   m_PrefabInstance: {fileID: 1918189304}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> parent of 12f4f44 (silvia)
 --- !u!1001 &1918247824
 PrefabInstance:
   m_ObjectHideFlags: 0
