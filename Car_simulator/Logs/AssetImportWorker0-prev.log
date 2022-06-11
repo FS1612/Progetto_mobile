@@ -1,0 +1,246 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'it' Physical Memory: 7834 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/silvi/Documents/Progetto_mobile/Car_simulator
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52937
+Successfully changed project path to: C:/Users/silvi/Documents/Progetto_mobile/Car_simulator
+C:/Users/silvi/Documents/Progetto_mobile/Car_simulator
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 78.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/silvi/Documents/Progetto_mobile/Car_simulator/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   
+    VRAM:     3917 MB
+    Driver:   30.0.101.1029
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003527 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 65.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.587 seconds
+Domain Reload Profiling:
+	ReloadAssembly (587ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (415ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (110ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.034419 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ExecuteMenuItem failed because there is no menu named 'Window/Lighting Tools'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Startup:.cctor () (at Assets/WhiteCity/Textures/Other/Offer/ALIyerEdonAssets_Lighting.cs:240)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/WhiteCity/Textures/Other/Offer/ALIyerEdonAssets_Lighting.cs line 240]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1007ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (852ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.3 MB.
+System memory in use after: 163.4 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2908.
+Total: 4.449700 ms (FindLiveObjects: 0.240300 ms CreateObjectMapping: 0.065300 ms MarkObjects: 3.399100 ms  DeleteObjects: 0.744000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan/Prefabs
+  artifactKey: Guid(b281ca45a30ec9b4ea7087e58f8040c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan/Prefabs using Guid(b281ca45a30ec9b4ea7087e58f8040c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d6befa7d08ea2341e411f955500d88') in 0.012568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001132 seconds.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan/Prefabs/BlueSuitFree01.prefab
+  artifactKey: Guid(1d3b1a1513de66247974634911345b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan/Prefabs/BlueSuitFree01.prefab using Guid(1d3b1a1513de66247974634911345b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac405ea451f315454c6f020c62368bc8') in 0.591690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan
+  artifactKey: Guid(482b4dcb646d219468ce678a9c27819b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan using Guid(482b4dcb646d219468ce678a9c27819b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cfa8da20b0b7805988573efbe13c24') in 0.014024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/StudioNewPunch/SuitPack
+  artifactKey: Guid(96de6e3f048d8a04b8209790387b9789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack using Guid(96de6e3f048d8a04b8209790387b9789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401f2abab057f0c48730e5d248cc5ac7') in 0.010633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.832054 seconds.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan/Models/BlueSuitFree01.fbx
+  artifactKey: Guid(e6ab94ea3d7bfb840aa41680fa79570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan/Models/BlueSuitFree01.fbx using Guid(e6ab94ea3d7bfb840aa41680fa79570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45040d3a5c16d4d355dd3964614c97e1') in 0.532951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001992 seconds.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan/Models
+  artifactKey: Guid(6abdc3f05e0141743ad36babf3419e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan/Models using Guid(6abdc3f05e0141743ad36babf3419e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3f92687171a40e1021628783279c95') in 0.006867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan/Models/suit_F01.fbx
+  artifactKey: Guid(9d5e434a2e80a114aa8a697c09eb432b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan/Models/suit_F01.fbx using Guid(9d5e434a2e80a114aa8a697c09eb432b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca773eee009173250e4ee945327de64') in 0.105137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.232045 seconds.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/HeadF_MAT.mat
+  artifactKey: Guid(69a125d0e01afe4439db34551f8f3268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/HeadF_MAT.mat using Guid(69a125d0e01afe4439db34551f8f3268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0a153e96a1375b3bf6cc03e8c40ce6') in 0.234976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001322 seconds.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/SuitMAT_MetallicSmoothness.bmp
+  artifactKey: Guid(f7aa5c9f7034e2e44a426956874411ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/SuitMAT_MetallicSmoothness.bmp using Guid(f7aa5c9f7034e2e44a426956874411ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ddc7527be4aca7cfbf5709a61aad01') in 0.108934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/HeadF_MAT_MetallicSmoothness.bmp
+  artifactKey: Guid(79df28570a5b72343a5464a84c5be328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/HeadF_MAT_MetallicSmoothness.bmp using Guid(79df28570a5b72343a5464a84c5be328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071244d4b4e245d7e0ae094eab207e7e') in 0.074385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/SuitMAT_AlbedoTransparency.bmp
+  artifactKey: Guid(94989fee1ac2c064d915fa6ca54fa508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/SuitMAT_AlbedoTransparency.bmp using Guid(94989fee1ac2c064d915fa6ca54fa508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1f7ef74f89a61820ddbeb608d0f784') in 0.055241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials
+  artifactKey: Guid(7868273ca7ca65c4e87cf2e27bf81fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials using Guid(7868273ca7ca65c4e87cf2e27bf81fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18db84cbdbf49e1e6a30762a6de850e') in 0.006832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/SuitMAT_Normal.bmp
+  artifactKey: Guid(b6735e1806bc0a943b2581e39708123d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/SuitMAT_Normal.bmp using Guid(b6735e1806bc0a943b2581e39708123d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff0bb8568a19fe50b0c10448e3ce25a') in 0.063911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/SuitMAT.mat
+  artifactKey: Guid(4588a918695c3404b81ce408babb4dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/SuitMAT.mat using Guid(4588a918695c3404b81ce408babb4dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798680ea0acb024a7add19bbc4d018e3') in 0.162304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/HeadF_MAT_Normal.bmp
+  artifactKey: Guid(70f623e9ac0bba0439379cdea9ffb450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/HeadF_MAT_Normal.bmp using Guid(70f623e9ac0bba0439379cdea9ffb450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f541541f59650a93c5b43fa52b1ce3') in 0.065614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/HeadF_MAT_AlbedoTransparency.bmp
+  artifactKey: Guid(8b89e950a4a38cd4cb40ab7baf1a1dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudioNewPunch/SuitPack/SuitedMan/Models/Materials/HeadF_MAT_AlbedoTransparency.bmp using Guid(8b89e950a4a38cd4cb40ab7baf1a1dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44711e880108b277deeeafae4600eb59') in 0.070694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.651574 seconds.
+  path: Assets/StarterAssets/ThirdPersonController
+  artifactKey: Guid(54b90d7f60b179e4e9909cd127aa060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController using Guid(54b90d7f60b179e4e9909cd127aa060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98897e5c3d4e0027d41afa92d72b8cc') in 0.009593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.264822 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Prefabs
+  artifactKey: Guid(84b4ab346fc32d445b7207cb1884cf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Prefabs using Guid(84b4ab346fc32d445b7207cb1884cf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5105f3d9e6eefa1e05f376a29227981') in 0.003181 seconds 
