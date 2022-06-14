@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: cb6e46b479d089d4cb4644e1b920442d
+=======
+<<<<<<< Updated upstream:Car_simulator/Assets/Samples/Authentication.meta
+guid: 6cfbf0a8712297a4a8169b47b3c34b7b
+=======
+guid: cb6e46b479d089d4cb4644e1b920442d
+>>>>>>> Stashed changes:Car_simulator/Assets/KajamansRoads/Free/Obj.meta
+>>>>>>> Stashed changes
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

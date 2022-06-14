@@ -264,7 +264,7 @@ public class MenuImpostazioniPrefab : MonoBehaviour
     {
         Time.timeScale = 1f;
     
-    SceneManager.LoadScene(0, LoadSceneMode.Single);
+    SceneManager.LoadScene(3, LoadSceneMode.Single);
         
     }
     public void SoloTastiera(bool attivo)
