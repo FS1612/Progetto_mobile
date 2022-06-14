@@ -633,6 +633,8 @@ GameObject:
   - component: {fileID: 561835736}
   - component: {fileID: 561835735}
   - component: {fileID: 561835734}
+  - component: {fileID: 561835738}
+  - component: {fileID: 561835737}
   m_Layer: 5
   m_Name: GoogleLogin
   m_TagString: Untagged
@@ -706,7 +708,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 684673581}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: LoginController, Assembly-CSharp
         m_MethodName: OnClickGoogleLogin
         m_Mode: 1
         m_Arguments:
@@ -755,6 +757,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561835732}
   m_CullTransparentMesh: 0
+--- !u!114 &561835737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561835732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: 0}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: 
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &561835738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561835732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
 --- !u!1 &684673579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1550,7 +1597,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 684673581}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: LoginController, Assembly-CSharp
         m_MethodName: OnClickFacebookLogin
         m_Mode: 1
         m_Arguments:
@@ -1560,7 +1607,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1264909171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1633,10 +1680,10 @@ RectTransform:
   m_Father: {fileID: 1972690910}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -2.6, y: -78}
-  m_SizeDelta: {x: 800, y: 480}
+  m_AnchoredPosition: {x: -2.6, y: 43}
+  m_SizeDelta: {x: 800, y: 238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1329143431
 MonoBehaviour:
@@ -1651,7 +1698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3882353, g: 0.7411765, b: 0.40918168, a: 1}
+  m_Color: {r: 0.8207547, g: 0.29036134, b: 0.3441834, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1687,6 +1734,8 @@ GameObject:
   - component: {fileID: 1482951650}
   - component: {fileID: 1482951652}
   - component: {fileID: 1482951651}
+  - component: {fileID: 1482951654}
+  - component: {fileID: 1482951653}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1751,6 +1800,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482951649}
   m_CullTransparentMesh: 0
+--- !u!114 &1482951653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482951649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d49b7c1bcd2e07499844da127be038d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ForceModuleActive: 0
+--- !u!114 &1482951654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482951649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
 --- !u!1 &1584710728
 GameObject:
   m_ObjectHideFlags: 0
