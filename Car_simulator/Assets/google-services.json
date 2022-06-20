@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "228844341932",
+    "project_id": "carsimulator-90014",
+    "storage_bucket": "carsimulator-90014.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228844341932:android:fbdec7b7c900424bed2d09",
+        "android_client_info": {
+          "package_name": "com.company.carsimulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228844341932-016k8sia7489i7e147s1f1ds0niq6hqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL4r569EwcBbkof2jPsLGtVgD2K6B5NiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228844341932-016k8sia7489i7e147s1f1ds0niq6hqs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "228844341932-lck94nrc5jk73knc9quh47hlb2r6jufc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.company.carsimulator"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
