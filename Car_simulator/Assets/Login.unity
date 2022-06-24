@@ -406,7 +406,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &439402852
 RectTransform:
@@ -420,7 +420,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1351826009}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -824,7 +824,6 @@ GameObject:
   - component: {fileID: 1237516316}
   - component: {fileID: 1237516315}
   - component: {fileID: 1237516319}
-  - component: {fileID: 1237516318}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -897,21 +896,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1237516318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237516314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a64cf6ba52d80ce40807347b17ece66a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  messageText: {fileID: 439402853}
-  emailnput: {fileID: 1351294402}
-  passwordInput: {fileID: 492867423}
 --- !u!114 &1237516319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1264,7 +1248,7 @@ RectTransform:
   - {fileID: 1391950971}
   - {fileID: 1854447800}
   m_Father: {fileID: 1351826009}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1386,6 +1370,7 @@ GameObject:
   - component: {fileID: 1351826008}
   - component: {fileID: 1351826007}
   - component: {fileID: 1351826006}
+  - component: {fileID: 1351826010}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1472,9 +1457,9 @@ RectTransform:
   - {fileID: 383174895}
   - {fileID: 1193391544}
   - {fileID: 492867422}
+  - {fileID: 439402852}
   - {fileID: 1351294401}
   - {fileID: 1608578204}
-  - {fileID: 439402852}
   m_Father: {fileID: 1296518493}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1483,6 +1468,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1351826010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351826005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64cf6ba52d80ce40807347b17ece66a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messageText: {fileID: 439402853}
+  emailnput: {fileID: 1351294402}
+  passwordInput: {fileID: 492867423}
 --- !u!1 &1378416059
 GameObject:
   m_ObjectHideFlags: 0
@@ -1950,7 +1950,7 @@ RectTransform:
   m_Children:
   - {fileID: 1521535414}
   m_Father: {fileID: 1351826009}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
