@@ -32,4 +32,5 @@ public class PlayFabManager : MonoBehaviour
         Debug.Log("Error while loggin in/creating account");
         Debug.Log(error.GenerateErrorReport());
     }
+
 }

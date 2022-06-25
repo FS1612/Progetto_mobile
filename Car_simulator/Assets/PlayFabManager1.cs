@@ -43,14 +43,7 @@ public class PlayFabManager1 : MonoBehaviour
         };
         PlayFabClientAPI.LoginWithEmailAddress(request, onLoginSuccess, OnError);
         
-    }
-    void onLoginSuccess (LoginResult result)
-    {
-        messageText.text = "Logged in!";
-        Debug.Log("Successful login/account create");
-       // GetCharacterStatisticsRequest();
-    }
-
+    } 
     public void ResetPasswordButton()
     {
         var request = new SendAccountRecoveryEmailRequest
@@ -66,9 +59,41 @@ public class PlayFabManager1 : MonoBehaviour
         messageText.text = "Password reset mail sent!";
     }
 
+    void Start()
+    {
+        Login();
+    }
+
+    // Update is called once per frame
+    void Login()
+    {
+        var request = new LoginWithCustomIDRequest
+        {
+            CustomId = SystemInfo.deviceUniqueIdentifier,
+            CreateAccount = true
+        };
+        PlayFabClientAPI.LoginWithCustomID(request, OnSuccess, OnError);
+    }
+     void onLoginSuccess (LoginResult result)
+    {
+        messageText.text = "Logged in!";
+        Debug.Log("Successful login/account create");
+      
+    }
+void OnSuccess(LoginResult result)
+    {
+        Debug.Log("Successful login/account create!");
+    }
+
     void OnError(PlayFabError error)
     {
-        messageText.text = error.ErrorMessage;
+        Debug.Log("Error while loggin in/creating account");
         Debug.Log(error.GenerateErrorReport());
+    }
+
+   // void OnError(PlayFabError error)
+  //  {
+   //     messageText.text = error.ErrorMessage;
+     //   Debug.Log(error.GenerateErrorReport());
     }
 }
