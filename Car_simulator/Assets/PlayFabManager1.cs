@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using PlayFab;
 using PlayFab.ClientModels;
@@ -6,7 +7,7 @@ using UnityEngine.UI;
 
 public class PlayFabManager1 : MonoBehaviour
 {
-    [Header("UI")]
+    
     public Text messageText;
     public InputField emailnput;
     public InputField passwordInput;
