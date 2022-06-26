@@ -95,5 +95,5 @@ void OnSuccess(LoginResult result)
   //  {
    //     messageText.text = error.ErrorMessage;
      //   Debug.Log(error.GenerateErrorReport());
-    }
+   // }
 }
