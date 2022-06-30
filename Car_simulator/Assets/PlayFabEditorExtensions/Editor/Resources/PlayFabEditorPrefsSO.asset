@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayFabEditorPrefsSO
   m_EditorClassIdentifier: 
   DevAccountEmail: sil.mucci@stud.uniroma3.it
-  DevAccountToken: fa4jb1apmz3nkj1q48uj6p8b1zae793f8izgrpu714gund9wjudnre3qskweirrjw76u45rebz1ceiqauuccz9ipsd6pnjdqgpmdg7owef1dtb7xemkn96osh5thr4dxgqi7xomahwih7s5dps7bupkxm56gdk5pfhzedoi36xm6z5bcz7icuikfwx1shx1893axz1od
-  SelectedStudio: Car Simulator
+  DevAccountToken: gddfu59qa6aeur5fhhj7muxkf1hhd74ooq76b7hbi8gc3h8gx45tm5m1mxh3jkofoe5wojrt3n3om5549qchbpywyzqjh85bqmtn85dsbkngmhyn8r5aseyzqipoed99tuy5m38zw796x158hg5911idmbswbsp5dzg8iysqxyn4psfg1bpkcpexuxd7yrn1zewqy7mc
+  SelectedStudio: 
   SdkPath: Assets/PlayFabSDK
   EdExPath: 
   LocalCloudScriptPath: 
-  PanelIsShown: 0
-  curMainMenuIdx: 1
-  curSubMenuIdx: 2
+  PanelIsShown: 1
+  curMainMenuIdx: 0
+  curSubMenuIdx: 0

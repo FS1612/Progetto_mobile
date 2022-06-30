@@ -767,7 +767,7 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     Build: 0
-    Collab: 0
+    Collab: 1
     Game Performance: 0
     Legacy Analytics: 0
     Purchasing: 0
@@ -787,11 +787,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 2
-  cloudProjectId: 39d166be-1917-4c85-94ae-2a03baccbc78
+  cloudProjectId: 7260d9f5-d62a-4af2-a528-c1acd273271e
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Car_simulator (1)
-  organizationId: silmucci
+  projectName: Car_simulator
+  organizationId: frasave1
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   virtualTexturingSupportEnabled: 0
