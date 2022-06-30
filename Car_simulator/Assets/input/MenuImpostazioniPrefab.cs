@@ -264,7 +264,7 @@ public class MenuImpostazioniPrefab : MonoBehaviour
     {
         Time.timeScale = 1f;
     
-    SceneManager.LoadScene(3, LoadSceneMode.Single);
+    SceneManager.LoadScene(2, LoadSceneMode.Single);
         
     }
     public void SoloTastiera(bool attivo)
@@ -389,7 +389,7 @@ public class MenuImpostazioniPrefab : MonoBehaviour
     public void TextureQuality(int quality) { GraphicManager.instance.SetQualitaTexture(quality); }
     public void ChiudiAvvertenzaFps() { PannelloAvvertenzaFps.SetActive(false); }
     public void ModificaTasti() { 
-        SceneManager.LoadScene(0, LoadSceneMode.Single);
+        SceneManager.LoadScene(2, LoadSceneMode.Single);
         GUIManager.instance.SetModificaAttiva(true);
     }
     public void ApriImpostazioniGui() {

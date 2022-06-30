@@ -65,14 +65,14 @@ public class ApriEChiudiMenuPausa : MonoBehaviour
     }
     public void MenuIniziale()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
 
     }
     public void AttivaImpostazioni()
     {//* le scene sono indicizzate nella build il gioco ha indice 0, il menu ha indice 1
         Menupausa.SetActive(false);
         //cambioScene();
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(3);
 
     }
     private void GestioneModifica()
