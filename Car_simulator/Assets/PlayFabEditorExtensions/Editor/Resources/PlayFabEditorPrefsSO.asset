@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayFabEditorPrefsSO
   m_EditorClassIdentifier: 
   DevAccountEmail: sil.mucci@stud.uniroma3.it
-  DevAccountToken: gddfu59qa6aeur5fhhj7muxkf1hhd74ooq76b7hbi8gc3h8gx45tm5m1mxh3jkofoe5wojrt3n3om5549qchbpywyzqjh85bqmtn85dsbkngmhyn8r5aseyzqipoed99tuy5m38zw796x158hg5911idmbswbsp5dzg8iysqxyn4psfg1bpkcpexuxd7yrn1zewqy7mc
+  DevAccountToken: ngz9ywcg5yn8nwzf7xzf9oof9zgy7837cj79siadyx9o1r738rph99c89rxiy471azyqyhob9azgu853x3mkxxa1k6a7xzaumn8w7z4xgjhhn6kenowi7q3geg6tbmr5qjsjfd6ihp6d9zhm4cgn1yjc8djnjsybu9upirjfjtimmpmyca7fwg5jifjytzmg18ghrtia
   SelectedStudio: 
   SdkPath: Assets/PlayFabSDK
   EdExPath: 
   LocalCloudScriptPath: 
-  PanelIsShown: 1
+  PanelIsShown: 0
   curMainMenuIdx: 0
   curSubMenuIdx: 0
