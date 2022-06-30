@@ -11,8 +11,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Login.unity
     guid: 8cf3805581715b44cbc1db1f90301732
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: e23574b13dbdba742963fbf5e3553d31
+  - enabled: 1
+    path: Assets/Scenes/terrenodamiano.unity
+    guid: de5622d8dabb4554f8875dd0bc338cb4
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
