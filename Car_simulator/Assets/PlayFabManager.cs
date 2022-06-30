@@ -49,7 +49,7 @@ public class PlayFabManager : MonoBehaviour
         var request = new SendAccountRecoveryEmailRequest
         {
             Email = emailInput.text,
-            TitleId = "E82E3"
+            TitleId = "3BEFA"
         };
         PlayFabClientAPI.SendAccountRecoveryEmail(request, OnPasswordReset, OnError);
 

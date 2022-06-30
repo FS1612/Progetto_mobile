@@ -1,0 +1,1017 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'it' Physical Memory: 7834 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/silvi/Documents/Progetto_mobile/Car_simulator
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49678
+Successfully changed project path to: C:/Users/silvi/Documents/Progetto_mobile/Car_simulator
+C:/Users/silvi/Documents/Progetto_mobile/Car_simulator
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 92.91 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/silvi/Documents/Progetto_mobile/Car_simulator/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   
+    VRAM:     3917 MB
+    Driver:   30.0.101.1029
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001107 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.34 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.689 seconds
+Domain Reload Profiling:
+	ReloadAssembly (689ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (558ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019445 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.20 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.675 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1676ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1415ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (817ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (583ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.9 MB.
+System memory in use after: 187.0 MB.
+
+Unloading 101 unused Assets to reduce memory usage. Loaded Objects now: 3571.
+Total: 5.020800 ms (FindLiveObjects: 0.211800 ms CreateObjectMapping: 0.091900 ms MarkObjects: 3.812300 ms  DeleteObjects: 0.904000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/FacebookSDK/Examples/MainMenu.unity
+  artifactKey: Guid(7c38a8c9adc9d5c4b869612e4033ead8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/MainMenu.unity using Guid(7c38a8c9adc9d5c4b869612e4033ead8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ec11c54edc3230fe61a24c474f687e') in 0.028317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000928 seconds.
+  path: Assets/FacebookSDK/Examples/Windows
+  artifactKey: Guid(acd88e36d6aa091408207cfe2edbc125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows using Guid(acd88e36d6aa091408207cfe2edbc125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e163a0120b13f73c72de799537dffc46') in 0.010684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/FacebookSDK/Examples/Windows/PurchaseButton.prefab
+  artifactKey: Guid(48ecc8417590fd543b994fb05d0e5c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows/PurchaseButton.prefab using Guid(48ecc8417590fd543b994fb05d0e5c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348066fe5ee2e9440cda3bbf1e7c3f30') in 0.061257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.263154 seconds.
+  path: Assets/FacebookSDK/Examples/AccessTokenMenu.unity
+  artifactKey: Guid(67cb5b2387b8e4ec9b2fa69ad9510e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/AccessTokenMenu.unity using Guid(67cb5b2387b8e4ec9b2fa69ad9510e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353232382214211833ba703f6f918bbf') in 0.009660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.374396 seconds.
+  path: Assets/FacebookSDK/Examples/AppEvents.unity
+  artifactKey: Guid(68ab940fa15e34433bff18301686b080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/AppEvents.unity using Guid(68ab940fa15e34433bff18301686b080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8ef937c84219d74bc666394d105bc8') in 0.008267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.566176 seconds.
+  path: Assets/FacebookSDK/Examples/Pay.unity
+  artifactKey: Guid(3ee189cdb21ea4bdb9d7022a0780c44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Pay.unity using Guid(3ee189cdb21ea4bdb9d7022a0780c44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697f33e4b70a1950fc3fd0dd1661a32e') in 0.010068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.926048 seconds.
+  path: Assets/FacebookSDK/Examples/Scripts
+  artifactKey: Guid(da6a6a3fc22edc34c80b3c2d0856ff8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Scripts using Guid(da6a6a3fc22edc34c80b3c2d0856ff8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c39153edb3e325505142596ad5ba21') in 0.009099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.002783 seconds.
+  path: Assets/FacebookSDK/SDK/Resources/FacebookSettings.asset
+  artifactKey: Guid(c7e72e0c7c696444abe4fa3afe76c0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Resources/FacebookSettings.asset using Guid(c7e72e0c7c696444abe4fa3afe76c0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd120f108af01615b0827ec9ae0827bf') in 0.010218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.924101 seconds.
+  path: Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentUpdater.swift
+  artifactKey: Guid(aa01d6bdb7c7f4c52bf29c7adbee61fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentUpdater.swift using Guid(aa01d6bdb7c7f4c52bf29c7adbee61fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f089ab22b6330e32ea67f6711684ba2d') in 0.008461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005719 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x86/WebView2Loader.dll
+  artifactKey: Guid(c676f7a042239014cbe2eb46ce558a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x86/WebView2Loader.dll using Guid(c676f7a042239014cbe2eb46ce558a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e96521cb1491266ce419b93e0974a76') in 0.016086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002755 seconds.
+  path: Assets/FacebookSDK/Examples/Scripts/LogView.cs
+  artifactKey: Guid(910cbe16250cb4363b70464c39fc701a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Scripts/LogView.cs using Guid(910cbe16250cb4363b70464c39fc701a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503b10f7f74007ccfb09baedd6108557') in 0.009133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024784 seconds.
+  path: Assets/FacebookSDK/Plugins/Canvas/CanvasJSSDKBindings.jslib
+  artifactKey: Guid(082cd93ddb11e4437b52ea3d121816d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Canvas/CanvasJSSDKBindings.jslib using Guid(082cd93ddb11e4437b52ea3d121816d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2cc3b0828596109e0a3e33a3f020d0') in 0.006611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005932 seconds.
+  path: Assets/FacebookSDK/Examples/LogView.unity
+  artifactKey: Guid(c07ff0bf6bea74c2eb681ac0cae44265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/LogView.unity using Guid(c07ff0bf6bea74c2eb681ac0cae44265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7787c53b504f9eff627b9b370618e3bd') in 0.006211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008584 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x64/libssl-1_1-x64.dll
+  artifactKey: Guid(857ba469d74c12c43bcd1e07929e646c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x64/libssl-1_1-x64.dll using Guid(857ba469d74c12c43bcd1e07929e646c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a44fee7712b2393c0719dbc4d2f889a') in 0.006013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005881 seconds.
+  path: Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll.mdb
+  artifactKey: Guid(3aa17cd5f43042a1a7381759dc1258a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll.mdb using Guid(3aa17cd5f43042a1a7381759dc1258a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e0e83302ab844f64fd5b7d46cf3836') in 0.010122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005968 seconds.
+  path: Assets/FacebookSDK/Examples/Windows/FBWindowsADSManager.cs
+  artifactKey: Guid(67f2f22b10b98134995830e8bee86439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows/FBWindowsADSManager.cs using Guid(67f2f22b10b98134995830e8bee86439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f8cf183a4e5ac283a8c160632a6d2d') in 0.005745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005221 seconds.
+  path: Assets/FacebookSDK/Examples/Windows/FBWindowsFriendsManager.cs
+  artifactKey: Guid(cdcf7065d5dd5214c8e6b1088e8d7dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows/FBWindowsFriendsManager.cs using Guid(cdcf7065d5dd5214c8e6b1088e8d7dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7fee53e996c0964d53ddb1b02b507f') in 0.005096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006810 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x86/zlib1.dll
+  artifactKey: Guid(8fd1ffcfff4ff5b4eb1db5ccad2cc0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x86/zlib1.dll using Guid(8fd1ffcfff4ff5b4eb1db5ccad2cc0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8f9cc64629acbf5cbb16fcd9150557') in 0.005345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006292 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/LibFBGManaged.dll
+  artifactKey: Guid(10c048a61ccb04500b577690122f4fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/LibFBGManaged.dll using Guid(10c048a61ccb04500b577690122f4fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219bed296bda163c8a011a6d70a79f72') in 0.005632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010330 seconds.
+  path: Assets/FacebookSDK/SDK/Editor/iOS/FBSDK+Internal.h
+  artifactKey: Guid(66952bdb75cae4c348f3d0521da59bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Editor/iOS/FBSDK+Internal.h using Guid(66952bdb75cae4c348f3d0521da59bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7b42e9f2be7fe024610745b30819a2') in 0.008602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007277 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x64/tinyxml2.dll
+  artifactKey: Guid(e4b7a050fe37ded4aafda3b4d9dd1afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x64/tinyxml2.dll using Guid(e4b7a050fe37ded4aafda3b4d9dd1afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e1fb17ddc8b58845d6436944ff8b8e') in 0.005507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005939 seconds.
+  path: Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll
+  artifactKey: Guid(bb6999c8a5ce4ba99688ec579babe5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll using Guid(bb6999c8a5ce4ba99688ec579babe5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1d72c9890fd2f377c94f5311dd3fae') in 0.004935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005187 seconds.
+  path: Assets/FacebookSDK/Examples/Scripts/SubMenus/GraphRequest.cs
+  artifactKey: Guid(23c3cb06c2209474e9a8441e2712d5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Scripts/SubMenus/GraphRequest.cs using Guid(23c3cb06c2209474e9a8441e2712d5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b3250b9de4143a36ad59b8647ae48f') in 0.004878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005624 seconds.
+  path: Assets/FacebookSDK/Examples/Scripts/SubMenus/TournamentsMenu.cs
+  artifactKey: Guid(4ad38019c04d54713a79b19e9b246a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Scripts/SubMenus/TournamentsMenu.cs using Guid(4ad38019c04d54713a79b19e9b246a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6065728b9ba7df56aeffe6c0929e39') in 0.004889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005523 seconds.
+  path: Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.135.0.dll
+  artifactKey: Guid(369cd88e7aa04bd98e0f6c229f7c1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.135.0.dll using Guid(369cd88e7aa04bd98e0f6c229f7c1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e201ace2693532f85e3e00cdc09204e6') in 0.005335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005056 seconds.
+  path: Assets/FacebookSDK/SDK/Editor/iOS/fixup.projmods
+  artifactKey: Guid(aead30834362b490ea67fdd7fd0351c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Editor/iOS/fixup.projmods using Guid(aead30834362b490ea67fdd7fd0351c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ed470044b55ca1da0de8ef928e12d8') in 0.008207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006763 seconds.
+  path: Assets/FacebookSDK/Examples/Windows/FBWindowsLoginManager.cs
+  artifactKey: Guid(3bd31f5b4e50e1f4ebd23bab7e8dc57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows/FBWindowsLoginManager.cs using Guid(3bd31f5b4e50e1f4ebd23bab7e8dc57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd18f955c7138b6b12cec85868c2a261') in 0.005760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006726 seconds.
+  path: Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.135.0.dll.mdb
+  artifactKey: Guid(5b5bb7be859c4fd1bd3c41a472792657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.135.0.dll.mdb using Guid(5b5bb7be859c4fd1bd3c41a472792657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b1c3134018ad5d3129438f6946dd76') in 0.006272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013184 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x86/tinyxml2.dll
+  artifactKey: Guid(0ded1cfd23dabdb4e929fc191db372b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x86/tinyxml2.dll using Guid(0ded1cfd23dabdb4e929fc191db372b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a8f844590c9ccb3db7f7c0fe1f859f') in 0.002174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007920 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x86/LibFBGUI.dll
+  artifactKey: Guid(b961445863dbc4b43a55732f9f91f620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x86/LibFBGUI.dll using Guid(b961445863dbc4b43a55732f9f91f620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cab8cb01e9692d2de2d46aac7c060e9') in 0.007413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007036 seconds.
+  path: Assets/FacebookSDK/SDK/Editor/iOS/FBUnityInterface.h
+  artifactKey: Guid(511e95bcdad89425999ccbb3e315246a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Editor/iOS/FBUnityInterface.h using Guid(511e95bcdad89425999ccbb3e315246a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f2026358d4e718489efce0a078d03e') in 0.005989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006118 seconds.
+  path: Assets/FacebookSDK/Examples/Scripts/SubMenus/Pay.cs
+  artifactKey: Guid(7f08c9721703046ec883e57562184726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Scripts/SubMenus/Pay.cs using Guid(7f08c9721703046ec883e57562184726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf4d5ce26dcecc05fbedf6fdd3beb6e') in 0.005470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005745 seconds.
+  path: Assets/FacebookSDK/Examples/Windows/FBWindowsGraphAPIManager.cs
+  artifactKey: Guid(f7c6c79221d642a49a2d6c7008efb024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows/FBWindowsGraphAPIManager.cs using Guid(f7c6c79221d642a49a2d6c7008efb024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c78dfc8ce3f3f5d6c34d9e4421a5bb') in 0.005243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006213 seconds.
+  path: Assets/FacebookSDK/Examples/GraphRequest.unity
+  artifactKey: Guid(444ae7ddf432b457a97bfe42021075e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/GraphRequest.unity using Guid(444ae7ddf432b457a97bfe42021075e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4815d80dd719fe36e479b21ca3eb9433') in 0.005975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006341 seconds.
+  path: Assets/FacebookSDK/Examples/Windows/FBWindowsShareManager.cs
+  artifactKey: Guid(6d2b9aa5c2a660f4394334fa45fc34cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows/FBWindowsShareManager.cs using Guid(6d2b9aa5c2a660f4394334fa45fc34cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2737dfebbfc207b923e50b193558e67') in 0.005163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008190 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x86/LibFBGPlatform.dll
+  artifactKey: Guid(030107980ae4ead41b2d9a7363a26414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x86/LibFBGPlatform.dll using Guid(030107980ae4ead41b2d9a7363a26414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35998d605bd2be3d28f5aeab5d1145cd') in 0.005404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006591 seconds.
+  path: Assets/FacebookSDK/Plugins/Android/libs/facebook-android-wrapper-13.2.0.aar
+  artifactKey: Guid(1410100ba8d214d96be3b84ef7409ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Android/libs/facebook-android-wrapper-13.2.0.aar using Guid(1410100ba8d214d96be3b84ef7409ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec071f13f54de84b0486c67ce289817') in 0.006833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004929 seconds.
+  path: Assets/FacebookSDK/Examples/Windows/FBWindowsTournamentsManager.cs
+  artifactKey: Guid(a04a3f841e0a748058e520e5cddc969a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows/FBWindowsTournamentsManager.cs using Guid(a04a3f841e0a748058e520e5cddc969a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd470de172228d4ff63ffb193d7a4ce8') in 0.004720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005890 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/Facebook.Unity.Windows.dll
+  artifactKey: Guid(4e3f0e4c6f0214206b90b47c679ab40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/Facebook.Unity.Windows.dll using Guid(4e3f0e4c6f0214206b90b47c679ab40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fe8000f0d3be3c3652fce28c01293d') in 0.005115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005689 seconds.
+  path: Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.135.0.dll.mdb
+  artifactKey: Guid(cae8f5dff2144389b07fadccfe1c949c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.135.0.dll.mdb using Guid(cae8f5dff2144389b07fadccfe1c949c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578541e005fe3f1daec331814588cbe1') in 0.005654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006610 seconds.
+  path: Assets/StreamingAssets/meta-logo.png
+  artifactKey: Guid(0d21613618d660742a8799bee37104d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/meta-logo.png using Guid(0d21613618d660742a8799bee37104d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6885441c3dc14162e4fd8780aaf28f92') in 0.013447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006858 seconds.
+  path: Assets/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.h
+  artifactKey: Guid(b4469d6625a664618b68231ee0dcc093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.h using Guid(b4469d6625a664618b68231ee0dcc093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbab48a95e903aacf1b3ae6c8c54ca4') in 0.006627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005838 seconds.
+  path: Assets/FacebookSDK/Examples/DialogShare.unity
+  artifactKey: Guid(190c345841ecc464e9a122f04369757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/DialogShare.unity using Guid(190c345841ecc464e9a122f04369757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ab123f0433dedfc7d4e54169985723') in 0.005430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009212 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x86/libcrypto-1_1.dll
+  artifactKey: Guid(d8f29cd4260ad454e9af1bc077a703b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x86/libcrypto-1_1.dll using Guid(d8f29cd4260ad454e9af1bc077a703b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd9cde4a8ed84c8fc2fa0f8f8e351d3') in 0.005347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004953 seconds.
+  path: Assets/FacebookSDK/Examples/Windows/FBWindowsPurchaseManager.cs
+  artifactKey: Guid(75adb6f2e516703489df2362d990ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows/FBWindowsPurchaseManager.cs using Guid(75adb6f2e516703489df2362d990ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d07ed7aee5bb5d08b12595dbb166f4') in 0.005217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011606 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x64/libcrypto-1_1-x64.dll
+  artifactKey: Guid(e09d5154c81e7664e99a586f2895672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x64/libcrypto-1_1-x64.dll using Guid(e09d5154c81e7664e99a586f2895672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402dd24f351b642cbbb6370b0afc0a20') in 0.005454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012309 seconds.
+  path: Assets/FacebookSDK/Examples/Scripts/SubMenus/AppRequests.cs
+  artifactKey: Guid(3b4c675f81a254b87adc8ad01006c580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Scripts/SubMenus/AppRequests.cs using Guid(3b4c675f81a254b87adc8ad01006c580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3674c9dcda0efe12ca9b3721830d11') in 0.005875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006559 seconds.
+  path: Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.135.0.dll.mdb
+  artifactKey: Guid(35304689a45d428197d8060697686528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.135.0.dll.mdb using Guid(35304689a45d428197d8060697686528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0449bb12ba97bbc20c13ffb107727f') in 0.005917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010970 seconds.
+  path: Assets/FacebookSDK/Examples/Scripts/MenuBase.cs
+  artifactKey: Guid(8f28f9112a7d44d3c999fbd95333abbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Scripts/MenuBase.cs using Guid(8f28f9112a7d44d3c999fbd95333abbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2687c8406ae32a3827629b349feef473') in 0.005825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005813 seconds.
+  path: Assets/FacebookSDK/Examples/Windows/FBWindowsLogsManager.cs
+  artifactKey: Guid(9f240dd53cc273847b9bbd76d0516894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows/FBWindowsLogsManager.cs using Guid(9f240dd53cc273847b9bbd76d0516894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc43b28a7aa917dc8e21e8598c02ecc') in 0.005504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008152 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x86/cpprest_2_10.dll
+  artifactKey: Guid(867dc8c4aa033d344baba3fb6a42cdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x86/cpprest_2_10.dll using Guid(867dc8c4aa033d344baba3fb6a42cdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1002823106992ce0a3079189079b5e8') in 0.004578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005406 seconds.
+  path: Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.135.0.txt
+  artifactKey: Guid(54730702a56740858922d24dc3f26918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.135.0.txt using Guid(54730702a56740858922d24dc3f26918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07bdd7225e52c02a168c3224acbe847') in 0.007828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006015 seconds.
+  path: Assets/FacebookSDK/Examples/Windows/FBWindowsA2UNotificationsManager.cs
+  artifactKey: Guid(a87b0532431cd8543ad24dba4f6553c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows/FBWindowsA2UNotificationsManager.cs using Guid(a87b0532431cd8543ad24dba4f6553c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adcea07f285e65cb7399ff4dba3048d7') in 0.005140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007959 seconds.
+  path: Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll
+  artifactKey: Guid(137a102f808364a0fb444bedefe2575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll using Guid(137a102f808364a0fb444bedefe2575d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284d7108081844a8a70724ad2dfc7a9b') in 0.006302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008475 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x64/libcurl.dll
+  artifactKey: Guid(3061eb54340a29646803a12683c31cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x64/libcurl.dll using Guid(3061eb54340a29646803a12683c31cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575bf5f1292ee72822fddf97188fffd0') in 0.005928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006318 seconds.
+  path: Assets/FacebookSDK/Examples/Scripts/ConsoleBase.cs
+  artifactKey: Guid(e8659f5605d094c19a8b7ef9471c3603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Scripts/ConsoleBase.cs using Guid(e8659f5605d094c19a8b7ef9471c3603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f30e2948b5b7b519ec811436ea6fa8c') in 0.005056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004946 seconds.
+  path: Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.137.0.txt
+  artifactKey: Guid(ba6f911c6f9d4d9ea269756e9dafb641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.137.0.txt using Guid(ba6f911c6f9d4d9ea269756e9dafb641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25049f6959f10f20c30895e3b7b2412') in 0.006038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007365 seconds.
+  path: Assets/FacebookSDK/Plugins/Android/Facebook.Unity.Android.dll
+  artifactKey: Guid(fb286cd0f33ce4f5e81baf10dab8d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Android/Facebook.Unity.Android.dll using Guid(fb286cd0f33ce4f5e81baf10dab8d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753ed7d3d4e4071bb8ac961b1d5c2909') in 0.005196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011220 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x64/zlib1.dll
+  artifactKey: Guid(a730d6719b0b0b247a2fffd3abbf82d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x64/zlib1.dll using Guid(a730d6719b0b0b247a2fffd3abbf82d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e34a9b6956008089cb0b3ea66724d5') in 0.002384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005807 seconds.
+  path: Assets/FacebookSDK/Examples/Windows/FBWindowsExampleTabsManager.cs
+  artifactKey: Guid(d684454c7ae4aa749bf72961f5d54d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows/FBWindowsExampleTabsManager.cs using Guid(d684454c7ae4aa749bf72961f5d54d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5550cf202f5ce7339092907ae16edd4') in 0.005405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006136 seconds.
+  path: Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKShareTournamentDialog.swift
+  artifactKey: Guid(e8b68c3227d0545b0baf196182ca495c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKShareTournamentDialog.swift using Guid(e8b68c3227d0545b0baf196182ca495c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfcb01ae49bcdb78d0e50c03abe34a0') in 0.005637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005785 seconds.
+  path: Assets/FacebookSDK/Examples/Scripts/SubMenus/AccessTokenMenu.cs
+  artifactKey: Guid(4cc408e158eec46b28b93a44fc8819ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Scripts/SubMenus/AccessTokenMenu.cs using Guid(4cc408e158eec46b28b93a44fc8819ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734af7eb98f7ee4fc7d46d865513d6fe') in 0.005260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005953 seconds.
+  path: Assets/FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.h
+  artifactKey: Guid(7461bcc2e2c714a03a3f60d68ec79369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.h using Guid(7461bcc2e2c714a03a3f60d68ec79369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d00cc54a6a7d6fe54ada857c55b2a0c') in 0.005511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006167 seconds.
+  path: Assets/FacebookSDK/Examples/Scripts/SubMenus/AppLinks.cs
+  artifactKey: Guid(f9f0b7257fa054227be6e26bf1f6b339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Scripts/SubMenus/AppLinks.cs using Guid(f9f0b7257fa054227be6e26bf1f6b339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9f7c76b4112f0ee3578edd0f5c048a') in 0.005377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009165 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x64/LibFBGPlatform.dll
+  artifactKey: Guid(c6a3b3cefcf217e47be3a88fa803faad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x64/LibFBGPlatform.dll using Guid(c6a3b3cefcf217e47be3a88fa803faad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef114f1774319305f129b103b8a9cf5b') in 0.002150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006193 seconds.
+  path: Assets/FacebookSDK/Examples/Windows/FBWindowsVirtualGamepadManager.cs
+  artifactKey: Guid(59e12909d8366e14fadb4c9f13d6d4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows/FBWindowsVirtualGamepadManager.cs using Guid(59e12909d8366e14fadb4c9f13d6d4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94efe9e6c480bf33db540ec19d919b8') in 0.004897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006782 seconds.
+  path: Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.135.0.dll
+  artifactKey: Guid(a1e8415cfe85469f9aa0aea941166031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.135.0.dll using Guid(a1e8415cfe85469f9aa0aea941166031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b037d08489f350cf67c2bf0b2be3459') in 0.005063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005985 seconds.
+  path: Assets/FacebookSDK/Examples/AppRequests.unity
+  artifactKey: Guid(c2250c9c5cf00425384401321f8dffb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/AppRequests.unity using Guid(c2250c9c5cf00425384401321f8dffb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436039d8d5d23784b1dd7af46a8e1a1e') in 0.005320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006966 seconds.
+  path: Assets/FacebookSDK/Plugins/Canvas/Facebook.Unity.Canvas.dll
+  artifactKey: Guid(c57105322a98c474faf1ce607f20c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Canvas/Facebook.Unity.Canvas.dll using Guid(c57105322a98c474faf1ce607f20c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285a01821ed55585541f432838022ca0') in 0.005868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007276 seconds.
+  path: Assets/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.mm
+  artifactKey: Guid(5cafb2af7ca9641f58022a816236d1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.mm using Guid(5cafb2af7ca9641f58022a816236d1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a64c4dfcc26dca1c6bddedbcc58ed3c') in 0.006776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006642 seconds.
+  path: Assets/FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.m
+  artifactKey: Guid(fbc51482e3ca248329707d61959f9d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.m using Guid(fbc51482e3ca248329707d61959f9d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14c86cfa09c9fa6088b1ac2d93a5a6e') in 0.003858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011350 seconds.
+  path: Assets/FacebookSDK/Examples/AppLinks.unity
+  artifactKey: Guid(4ac12dfde6570493291366d0ab3eb20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/AppLinks.unity using Guid(4ac12dfde6570493291366d0ab3eb20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d2d642107e05d67127251e041faa46') in 0.006328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005481 seconds.
+  path: Assets/FacebookSDK/Examples/Scripts/SubMenus/DialogShare.cs
+  artifactKey: Guid(e93c4155902d3496399630ee494eab6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Scripts/SubMenus/DialogShare.cs using Guid(e93c4155902d3496399630ee494eab6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14697269438553316f68c4800d12ab8') in 0.005329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008642 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x86/libcurl.dll
+  artifactKey: Guid(1c7b76ca3fc53e54a9a286e529b1bf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x86/libcurl.dll using Guid(1c7b76ca3fc53e54a9a286e529b1bf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bf7de4bfa8eb892ff8838b46949620') in 0.002222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011027 seconds.
+  path: Assets/FacebookSDK/Examples/Windows/FBWindowsInitManager.cs
+  artifactKey: Guid(645295939ce40b34da9edd1810f5ba00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows/FBWindowsInitManager.cs using Guid(645295939ce40b34da9edd1810f5ba00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02f7888b46050a7fb90d4d9f5a59e3c') in 0.004428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005504 seconds.
+  path: Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll
+  artifactKey: Guid(c49f2b3ca212b47fc9cd8ce655177c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll using Guid(c49f2b3ca212b47fc9cd8ce655177c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5925da4dadde81d07e580d19076d958') in 0.004693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007106 seconds.
+  path: Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentFetcher.swift
+  artifactKey: Guid(a2bf9c24f7d8f4c83b760043d97deadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournamentFetcher.swift using Guid(a2bf9c24f7d8f4c83b760043d97deadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef31271da4a0da13b14837d436498ba9') in 0.005735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006580 seconds.
+  path: Assets/FacebookSDK/SDK/Editor/iOS/FBUnityInterface.mm
+  artifactKey: Guid(4c29c5d59509848c4bc24c13ac976932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Editor/iOS/FBUnityInterface.mm using Guid(4c29c5d59509848c4bc24c13ac976932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab45801368feea6337d754a5d11c343f') in 0.002732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007466 seconds.
+  path: Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournament.swift
+  artifactKey: Guid(40782e83ff8774bfb8280e20c134e6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Editor/iOS/Swift/FBSDKTournament.swift using Guid(40782e83ff8774bfb8280e20c134e6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef277adc9783cdf61df900c138ff467') in 0.005113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013538 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x64/LibFBGUI.dll
+  artifactKey: Guid(e02ec92d8614d7c45abac0366392f89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x64/LibFBGUI.dll using Guid(e02ec92d8614d7c45abac0366392f89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d8a71478a4143026fdd7938dcf097e') in 0.002085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012424 seconds.
+  path: Assets/FacebookSDK/Examples/Textures/White.psd
+  artifactKey: Guid(6f2bd1fb3a7ec4616b4311f171db577d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Textures/White.psd using Guid(6f2bd1fb3a7ec4616b4311f171db577d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c3871d403be6957a55a472abd5ffb0') in 0.046449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008261 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x64/cpprest_2_10.dll
+  artifactKey: Guid(ad9b8626e91cd2b418be67e203bb52c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x64/cpprest_2_10.dll using Guid(ad9b8626e91cd2b418be67e203bb52c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f8cc6a032ea414926e2c374dcad56c') in 0.001937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007428 seconds.
+  path: Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.135.0.dll
+  artifactKey: Guid(97738b29c18143b0a469277b09d35889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.135.0.dll using Guid(97738b29c18143b0a469277b09d35889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d66d2ceaf98cc9a13648443690b23a4') in 0.004510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007485 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x86/libssl-1_1.dll
+  artifactKey: Guid(b640c34490c7d0d43b559ea34c1291b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x86/libssl-1_1.dll using Guid(b640c34490c7d0d43b559ea34c1291b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa7882409068408b98cfc38c571951a') in 0.006703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006343 seconds.
+  path: Assets/FacebookSDK/Plugins/iOS/Facebook.Unity.IOS.dll
+  artifactKey: Guid(516664901472b44fe83b720b195b5b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/iOS/Facebook.Unity.IOS.dll using Guid(516664901472b44fe83b720b195b5b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939c6803f46ff8b1dcac81f715aa96d8') in 0.005035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004813 seconds.
+  path: Assets/FacebookSDK/Examples/Scripts/SubMenus/AppEvents.cs
+  artifactKey: Guid(e3c0dd81ff77c4c30834810815c69f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Scripts/SubMenus/AppEvents.cs using Guid(e3c0dd81ff77c4c30834810815c69f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4c7b7ba8d15c4499bcf194eaca7822') in 0.004751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006200 seconds.
+  path: Assets/FacebookSDK/link.xml
+  artifactKey: Guid(51f4619c385224a23a3edb9092c7d49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/link.xml using Guid(51f4619c385224a23a3edb9092c7d49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b351dbfaba65432a21a32e53b5cafd3b') in 0.020616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005847 seconds.
+  path: Assets/FacebookSDK/Examples/TournamentsMenu.unity
+  artifactKey: Guid(6f8d688887086476cb9533793ffa1756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/TournamentsMenu.unity using Guid(6f8d688887086476cb9533793ffa1756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a7335a3c0165eb9e53bea8714ca20d') in 0.006327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006528 seconds.
+  path: Assets/FacebookSDK/Plugins/Facebook.Unity.dll
+  artifactKey: Guid(08462833fafe743b8bd59914b9f52696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Facebook.Unity.dll using Guid(08462833fafe743b8bd59914b9f52696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10a18ea0391d6e6515b56a26e70d93b') in 0.005513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007725 seconds.
+  path: Assets/FacebookSDK/Plugins/Windows/x64/WebView2Loader.dll
+  artifactKey: Guid(4c5dcf1d4e9a7234797a70e6a2a975e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Windows/x64/WebView2Loader.dll using Guid(4c5dcf1d4e9a7234797a70e6a2a975e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d345e0b010d9e9c1c98cd08ca37f1a9') in 0.002279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005369 seconds.
+  path: Assets/FacebookSDK/Examples/Windows/WindowsExample.unity
+  artifactKey: Guid(a3acdfcd48c61dc4a89fc0056edf3fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Windows/WindowsExample.unity using Guid(a3acdfcd48c61dc4a89fc0056edf3fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241cfc57e59df8428a249260e56db43a') in 0.005019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005948 seconds.
+  path: Assets/FacebookSDK/Plugins/Editor/Dependencies.xml
+  artifactKey: Guid(1543e5f9bab73423c96b42cab90363ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Plugins/Editor/Dependencies.xml using Guid(1543e5f9bab73423c96b42cab90363ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634138471eff48ede8bc4d53962d931f') in 0.006561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005252 seconds.
+  path: Assets/FacebookSDK/Examples/Scripts/SubMenus/MainMenu.cs
+  artifactKey: Guid(922e3ad8d88a146b3b392cd8c84edd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/Examples/Scripts/SubMenus/MainMenu.cs using Guid(922e3ad8d88a146b3b392cd8c84edd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2452ed3fde35759bb9b1b23cd1e986dc') in 0.005413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.711585 seconds.
+  path: Assets/FacebookSDK/SDK/Resources/FacebookSettings.asset
+  artifactKey: Guid(c7e72e0c7c696444abe4fa3afe76c0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Resources/FacebookSettings.asset using Guid(c7e72e0c7c696444abe4fa3afe76c0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7835ff51263ab9f0ed6d4ebd7525c74d') in 0.007247 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 78.46 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 91 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 119.8 MB.
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3573.
+Total: 6.398200 ms (FindLiveObjects: 0.238700 ms CreateObjectMapping: 0.098200 ms MarkObjects: 5.355100 ms  DeleteObjects: 0.704900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 47.17 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 91 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 119.8 MB.
+
+Unloading 90 unused Assets to reduce memory usage. Loaded Objects now: 3573.
+Total: 4.424400 ms (FindLiveObjects: 0.208600 ms CreateObjectMapping: 0.083600 ms MarkObjects: 3.604300 ms  DeleteObjects: 0.526700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 69.72 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 91 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.0 MB.
+System memory in use after: 118.1 MB.
+
+Unloading 90 unused Assets to reduce memory usage. Loaded Objects now: 3573.
+Total: 4.989900 ms (FindLiveObjects: 0.243300 ms CreateObjectMapping: 0.094300 ms MarkObjects: 3.923500 ms  DeleteObjects: 0.727800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 46.62 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 91 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.0 MB.
+System memory in use after: 118.1 MB.
+
+Unloading 90 unused Assets to reduce memory usage. Loaded Objects now: 3573.
+Total: 5.317400 ms (FindLiveObjects: 0.222800 ms CreateObjectMapping: 0.092000 ms MarkObjects: 4.286800 ms  DeleteObjects: 0.714900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012456 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.583 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1585ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1309ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (680ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (465ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2943 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.2 MB.
+System memory in use after: 173.3 MB.
+
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 3577.
+Total: 4.909400 ms (FindLiveObjects: 0.198700 ms CreateObjectMapping: 0.100700 ms MarkObjects: 3.980300 ms  DeleteObjects: 0.628000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006206 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.564 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4565ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (4379ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (3771ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (3588ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2943 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.2 MB.
+System memory in use after: 173.3 MB.
+
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 3581.
+Total: 4.125300 ms (FindLiveObjects: 0.290000 ms CreateObjectMapping: 0.070300 ms MarkObjects: 3.203500 ms  DeleteObjects: 0.560700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 260.389261 seconds.
+  path: Assets/Login.unity
+  artifactKey: Guid(8cf3805581715b44cbc1db1f90301732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Login.unity using Guid(8cf3805581715b44cbc1db1f90301732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6191febd7956db2a0ca43390a0d47b41') in 0.024990 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007519 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.120 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4121ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (3937ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (3334ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (3019ms)
+				ProcessInitializeOnLoadMethodAttributes (176ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.20 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2943 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.3 MB.
+System memory in use after: 173.4 MB.
+
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 3585.
+Total: 5.866700 ms (FindLiveObjects: 0.348500 ms CreateObjectMapping: 0.173200 ms MarkObjects: 4.467900 ms  DeleteObjects: 0.875400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004829 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.213 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1214ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1055ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (574ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (396ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.2 MB.
+System memory in use after: 173.3 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3589.
+Total: 5.346400 ms (FindLiveObjects: 0.213200 ms CreateObjectMapping: 0.094400 ms MarkObjects: 4.134100 ms  DeleteObjects: 0.903400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
