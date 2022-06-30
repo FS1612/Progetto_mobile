@@ -152,6 +152,7 @@ PlayerSettings:
   m_ColorGamuts: 00000000
   targetPixelDensity: 30
   resolutionScalingMode: 0
+  resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
@@ -163,7 +164,7 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 30
+  AndroidMinSdkVersion: 33
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -690,7 +691,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     1: STARTER_ASSETS_PACKAGES_CHECKED;ENABLE_PLAYFABADMIN_API;ENABLE_PLAYFABSERVER_API
     4: STARTER_ASSETS_PACKAGES_CHECKED
-    7: ENABLE_PLAYFABADMIN_API;ENABLE_PLAYFABSERVER_API;ENABLE_PLAYFABPUBSUB_API;STARTER_ASSETS_PACKAGES_CHECKED
+    7: ENABLE_PLAYFABADMIN_API;ENABLE_PLAYFABSERVER_API;ENABLE_PLAYFABPUBSUB_API;STARTER_ASSETS_PACKAGES_CHECKED;PLAYFAB_REQUEST_TIMING;ENABLE_PLAYFAB_BETA
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -707,7 +708,8 @@ PlayerSettings:
   gcIncremental: 1
   assemblyVersionValidation: 1
   gcWBarrierValidation: 0
-  apiCompatibilityLevelPerPlatform: {}
+  apiCompatibilityLevelPerPlatform:
+    Android: 6
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Template3D
@@ -736,6 +738,7 @@ PlayerSettings:
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
+  vcxProjDefaultLanguage: 
   XboxOneProductId: 
   XboxOneUpdateKey: 
   XboxOneSandboxId: 
