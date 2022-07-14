@@ -5930,6 +5930,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7303116509305054165, guid: dfec8d9b723b08e4ab4463a1b8f9cd7d, type: 3}
   m_PrefabInstance: {fileID: 109107806}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &109415187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 196020, guid: b331863b8ea6edc4e93fc5d6f83dbac6, type: 3}
+  m_PrefabInstance: {fileID: 125352877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &109415188
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109415187}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 48.47494, y: 28.856726, z: 55.094013}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &109691417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7574,7 +7592,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0.000000014901161, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 302, y: 0.40000004, z: 143.3}
+  m_ConnectedAnchor: {x: 302, y: 0.40000004, z: 143.30002}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -103375,7 +103393,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7303116509305054165, guid: dfec8d9b723b08e4ab4463a1b8f9cd7d, type: 3}
       propertyPath: m_RootOrder
-      value: 826
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 7303116509305054165, guid: dfec8d9b723b08e4ab4463a1b8f9cd7d, type: 3}
       propertyPath: m_LocalScale.x
