@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Auto
   - WayPoints
+  - Infrazione
   layers:
   - Default
   - TransparentFX
