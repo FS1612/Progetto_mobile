@@ -137,56 +137,7 @@ public class MenuImpostazioniPrefab : MonoBehaviour
 
     }
    
-    //private void AggiornaToggle()
-    //{
-    //    //ToggleAccelerometro.isOn = AccelerometroAttivo;
-    //    //ToggleJoistick.isOn = attivaJoistick;
-    //    //ToggleTastiera.isOn = soloTastiera;
-    //    //ToggleSterzo.isOn = sterzo;
-    //    if (PlayerPrefs.GetInt("ToggleSelected")==0)
-    //    {
-    //        ToggleAccelerometro.isOn = true;
-    //        ToggleTastiera.isOn = false;
-    //        ToggleSterzo.isOn = false;
-    //        ToggleJoistick.isOn = false;
-    //    }
-    //    else if (PlayerPrefs.GetInt("ToggleSelected") ==1)
-    //    {
-    //        ToggleAccelerometro.isOn = false;
-    //        ToggleTastiera.isOn = false;
-    //        ToggleSterzo.isOn = false;
-    //        ToggleJoistick.isOn = true;
-    //    }
-    //   else if (PlayerPrefs.GetInt("ToggleSelected") == 2)
-    //    {
-    //        ToggleAccelerometro.isOn = false;
-    //        ToggleTastiera.isOn = true;
-    //        ToggleSterzo.isOn = false;
-    //        ToggleJoistick.isOn = true;
-    //    }
-    //   else  if (PlayerPrefs.GetInt("ToggleSelected") == 3)
-    //    {
-    //        ToggleAccelerometro.isOn = false;
-    //        ToggleTastiera.isOn = false;
-    //        ToggleSterzo.isOn = true;
-    //        ToggleJoistick.isOn = false;
-    //    }
     
-    
-    //}
-    //private void MostraStato()
-    //{
-    //    if (AccelerometroAttivo) { StatoAccelerometro.text = Abilitato; StatoAccelerometro.color = Color.green;}
-    //    if (attivaJoistick){ StatoJoistick.text = Abilitato; StatoJoistick.color = Color.green; }
-    //    if (soloTastiera) { StatoTastiera.text = Abilitato; StatoTastiera.color = Color.yellow; }
-    //    if (fpsCounter) { StatoCounterFps.text = Abilitato; StatoCounterFps.color = Color.green; }
-    //    if (sterzo) { StatoVolante.text = Abilitato; StatoVolante.color = Color.green; }
-    //    if (!AccelerometroAttivo) { StatoAccelerometro.text = Disabilitato; StatoAccelerometro.color = Color.red; }
-    //    if (!attivaJoistick) { StatoJoistick.text = Disabilitato; StatoJoistick.color = Color.red; }
-    //    if (!soloTastiera) { StatoTastiera.text = Disabilitato; StatoTastiera.color = Color.yellow; }
-    //    if (!fpsCounter) { StatoCounterFps.text = Disabilitato; StatoCounterFps.color = Color.red; }
-    //    if (!sterzo) { StatoVolante.text = Disabilitato; StatoVolante.color = Color.red; }
-    //}
     private void SliderSetUp()
     {
         
@@ -264,7 +215,7 @@ public class MenuImpostazioniPrefab : MonoBehaviour
     {
         Time.timeScale = 1f;
     
-    SceneManager.LoadScene(2, LoadSceneMode.Single);
+    SceneManager.LoadScene(3, LoadSceneMode.Single);
         
     }
     public void SoloTastiera(bool attivo)
@@ -389,7 +340,7 @@ public class MenuImpostazioniPrefab : MonoBehaviour
     public void TextureQuality(int quality) { GraphicManager.instance.SetQualitaTexture(quality); }
     public void ChiudiAvvertenzaFps() { PannelloAvvertenzaFps.SetActive(false); }
     public void ModificaTasti() { 
-        SceneManager.LoadScene(2, LoadSceneMode.Single);
+        SceneManager.LoadScene(3, LoadSceneMode.Single);
         GUIManager.instance.SetModificaAttiva(true);
     }
     public void ApriImpostazioniGui() {

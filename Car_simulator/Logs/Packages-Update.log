@@ -52,3 +52,18 @@ Update Mode: updateDependencies
 
 The following packages were updated:
   com.unity.collab-proxy from version 1.15.17 to 1.15.18
+
+=== Thu Jul 14 09:03:28 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.cinemachine from version 2.6.15 to 2.8.6
+  com.unity.ide.rider from version 2.0.7 to 3.0.14
+  com.unity.mobile.notifications from version 1.4.3 to 2.0.2
+  com.unity.purchasing.udp from version 2.0.0 to 2.2.3
+  com.unity.recorder from version 2.5.7 to 3.0.3
+  com.unity.timeline from version 1.4.8 to 1.7.1
+The following packages were removed:
+  com.unity.multiplayer-hlapi@1.1.1
