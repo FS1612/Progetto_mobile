@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ApriEChiudiMenuPausa : MonoBehaviour
 {
+    [SerializeField] GameObject PannelloPersa;
     [SerializeField] GameObject auto;
     [SerializeField] GameObject Menupausa;
     private bool IsPaused;
@@ -24,6 +25,7 @@ public class ApriEChiudiMenuPausa : MonoBehaviour
     
     void Start()
     {
+        PannelloPersa.SetActive( false);
         ModificaAttiva = GUIManager.instance.GetModificaAttiva();
         Menupausa.SetActive(false);
        
@@ -85,9 +87,9 @@ public class ApriEChiudiMenuPausa : MonoBehaviour
     {
         if (VitaAttuale == 0 || StelleAttuali == 3)
         {
-            Time.timeScale = 0;
+            
             print("riprova la prossima Volta");
-            Menupausa.SetActive(true);
+            PannelloPersa.SetActive(true);
         }
     }
 }
