@@ -87176,6 +87176,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: AttivaImpostazioni
       objectReference: {fileID: 0}
+    - target: {fileID: 8170879827934043494, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
+    - target: {fileID: 8170879828050756834, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
+    - target: {fileID: 8170879828050779649, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
+    - target: {fileID: 8170879828130933367, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
     - target: {fileID: 8170879828147888536, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -87204,6 +87220,10 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: RimuoviFreno
       objectReference: {fileID: 0}
+    - target: {fileID: 8170879828170086413, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
     - target: {fileID: 8170879828173585844, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
       propertyPath: target
       value: 
@@ -87340,6 +87360,34 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SalvaModifiche
       objectReference: {fileID: 0}
+    - target: {fileID: 8170879828328574744, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
+    - target: {fileID: 8170879828395799503, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
+    - target: {fileID: 8170879828447092893, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
+    - target: {fileID: 8170879828461804121, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
+    - target: {fileID: 8170879828487876915, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
+    - target: {fileID: 8170879828538770751, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
+    - target: {fileID: 8170879828642903174, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
     - target: {fileID: 8170879828649226326, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -87364,10 +87412,26 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PremiAcceleratore
       objectReference: {fileID: 0}
+    - target: {fileID: 8170879828721901927, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
     - target: {fileID: 8170879828759321092, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
       propertyPath: m_Text
       value: Menu Principale
       objectReference: {fileID: 0}
+    - target: {fileID: 8170879828759321092, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
+    - target: {fileID: 8170879829119681185, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
+    - target: {fileID: 8170879829175005053, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
     - target: {fileID: 8170879829191867143, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -87376,6 +87440,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: indietro
       objectReference: {fileID: 0}
+    - target: {fileID: 8170879829216140849, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
+    - target: {fileID: 8170879829224768457, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
+    - target: {fileID: 8170879829297352925, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
     - target: {fileID: 8170879829360050239, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -87384,6 +87460,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: RimuoviPausa
       objectReference: {fileID: 0}
+    - target: {fileID: 8170879829409359492, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
     - target: {fileID: 8170879829414582333, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -20.738281
@@ -87412,6 +87492,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: GestioneMovimentoTastiScript, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8170879829496871243, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 59a160d8c4f30e24291daa9584f48b8d, type: 3}
     - target: {fileID: 8170879829642864329, guid: a6c872e4a7ea10e46b5a631f49743dc9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -95743,9 +95827,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hai Perso!!
-
-'
+  m_text: HAI PERSO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
