@@ -243,5 +243,8 @@ public class GestioneBottoni : MonoBehaviour
     //   }
     //    else { FpsASchermo.enabled = false; }
     //}
-
+    public void esci()
+    {
+        Application.Quit();
+    }
 }

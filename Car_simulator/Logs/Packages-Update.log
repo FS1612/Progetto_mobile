@@ -67,3 +67,11 @@ The following packages were updated:
   com.unity.timeline from version 1.4.8 to 1.7.1
 The following packages were removed:
   com.unity.multiplayer-hlapi@1.1.1
+
+=== Fri Jul 15 08:00:03 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.cinemachine from version 2.6.15 to 2.8.6

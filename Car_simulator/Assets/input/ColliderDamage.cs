@@ -6,7 +6,7 @@ public class ColliderDamage : MonoBehaviour
 {
    
     [SerializeField] GameObject target;
-    [SerializeField] GameObject GestoreStelle;
+
     private int danno=10;
     // Start is called before the first frame update
     private void Start()
@@ -34,6 +34,7 @@ public class ColliderDamage : MonoBehaviour
     //}
     private void OnCollisionEnter(Collision collision)
     {
+      
         if (collision.gameObject.CompareTag("Auto"))
         {
             if (collision.relativeVelocity.magnitude > 0f)
@@ -43,14 +44,6 @@ public class ColliderDamage : MonoBehaviour
                 vita.Damage(danno);
             }
         }
-        //if (collision.gameObject.CompareTag("Auto"))
-        //{
-            
-        //        print("haicommesso un'infrazione \t ");
-        //    GestioneStelle Stelle = collision.gameObject.GetComponent<GestioneStelle>();
-        //    Stelle.Infrazione(1);
-
-
-        //}
+        
     }
 }
