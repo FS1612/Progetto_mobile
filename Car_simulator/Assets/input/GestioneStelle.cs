@@ -10,11 +10,13 @@ public class GestioneStelle : MonoBehaviour
     [SerializeField] Image Stella3;
     private int numeroStelleAttive = 0;
     private int maxStelleAttive;
+    private bool Modifica;
     Color spento;
     Color acceso;
     // Start is called before the first frame update
     void Start()
     {
+        Modifica = GUIManager.instance.GetModificaAttiva();
         spento = new Color(0, 0, 0, 0.2f);
         acceso = new Color(1, 1, 1, 1);
     }
@@ -45,12 +47,13 @@ public class GestioneStelle : MonoBehaviour
             Stella2.color = acceso;
         }
 
-        if (numeroStelleAttive == 3)
+        if (numeroStelleAttive == 3||Modifica)
         {
             Stella1.color = acceso;
             Stella2.color = acceso;
             Stella3.color = acceso;
         }
+        
     }
     private void OnCollisionEnter(Collision collision)
     {

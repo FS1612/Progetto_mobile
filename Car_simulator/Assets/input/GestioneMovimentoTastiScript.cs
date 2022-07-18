@@ -63,6 +63,7 @@ public class GestioneMovimentoTastiScript : MonoBehaviour
     [SerializeField] GameObject opzioni;
     [SerializeField] GameObject PannelloAvvertenze;
     [SerializeField] GameObject ControlloTouch;
+    [SerializeField] GameObject stelle;
     //[SerializeField] GameObject Controller;
     private bool primoCambio;
     private bool ModificaAttiva;
@@ -96,6 +97,7 @@ public class GestioneMovimentoTastiScript : MonoBehaviour
             {
                 //print(primoCambio);
                 BottoniDefault();
+                
                 GUIManager.instance.SetPrimoCambiamento(false);
             }
             else if (!primoCambio)
@@ -355,7 +357,7 @@ public class GestioneMovimentoTastiScript : MonoBehaviour
         GUIManager.instance.SetScaleTachimetroAggiornata(scaletachimetroaggiornato);
         GUIManager.instance.SetScaleFpsAggiornata(scalefpsaggiornato);
         GUIManager.instance.SetModificaAttiva(false);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
 }
     public void VerificaSpostamenti()
     {
@@ -475,9 +477,10 @@ public class GestioneMovimentoTastiScript : MonoBehaviour
         else { BarraVitaAggiornato = false; }
     }
     private void AggiornaScala()
-    {        
+    {
         string nome = GameManager.instance.GetTastoToccato();
-        if (string.Compare(nome, freno.name) == 0) {
+        if (string.Compare(nome, freno.name) == 0)
+        {
             freno.GetComponent<Image>().color = Color.grey;
             frenoamano.GetComponent<Image>().color = Color.white;
             acceleratore.GetComponent<Image>().color = Color.white;
@@ -499,6 +502,7 @@ public class GestioneMovimentoTastiScript : MonoBehaviour
             barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
             fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
             tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            stelle.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
             //print("sono figo");
         }
         if (string.Compare(nome, frenoamano.name) == 0)
@@ -514,15 +518,16 @@ public class GestioneMovimentoTastiScript : MonoBehaviour
             fps.GetComponent<TextMeshProUGUI>().color = Color.white;
             tachimetro.GetComponent<Image>().color = Color.white;
             freno.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = true;
-             acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = true;
+            acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            stelle.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
         }
         if (string.Compare(nome, acceleratore.name) == 0)
         {
@@ -538,14 +543,15 @@ public class GestioneMovimentoTastiScript : MonoBehaviour
             tachimetro.GetComponent<Image>().color = Color.white;
             acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = true;
             freno.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            stelle.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
         }
         if (string.Compare(nome, inverter.name) == 0)
         {
@@ -560,15 +566,16 @@ public class GestioneMovimentoTastiScript : MonoBehaviour
             fps.GetComponent<TextMeshProUGUI>().color = Color.white;
             tachimetro.GetComponent<Image>().color = Color.white;
             inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = true;
-             freno.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false; 
-             sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            freno.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            stelle.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
         }
         if (string.Compare(nome, sterzo.name) == 0)
         {
@@ -584,14 +591,15 @@ public class GestioneMovimentoTastiScript : MonoBehaviour
             tachimetro.GetComponent<Image>().color = Color.white;
             sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = true;
             freno.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            stelle.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
         }
         if (string.Compare(nome, joystick.name) == 0)
         {
@@ -607,14 +615,15 @@ public class GestioneMovimentoTastiScript : MonoBehaviour
             tachimetro.GetComponent<Image>().color = Color.white;
             joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = true;
             freno.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
             sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
             opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            stelle.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
         }
         if (string.Compare(nome, opzioni.name) == 0)
         {
@@ -630,14 +639,15 @@ public class GestioneMovimentoTastiScript : MonoBehaviour
             tachimetro.GetComponent<Image>().color = Color.white;
             opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = true;
             freno.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            stelle.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
         }
         if (string.Compare(nome, barravita.name) == 0)
         {
@@ -653,14 +663,15 @@ public class GestioneMovimentoTastiScript : MonoBehaviour
             tachimetro.GetComponent<Image>().color = Color.white;
             barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = true;
             freno.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            stelle.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
         }
         if (string.Compare(nome, fps.name) == 0)
         {
@@ -676,14 +687,15 @@ public class GestioneMovimentoTastiScript : MonoBehaviour
             tachimetro.GetComponent<Image>().color = Color.white;
             fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = true;
             freno.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            stelle.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
         }
         if (string.Compare(nome, tachimetro.name) == 0)
         {
@@ -699,14 +711,41 @@ public class GestioneMovimentoTastiScript : MonoBehaviour
             tachimetro.GetComponent<Image>().color = Color.gray;
             tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = true;
             freno.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
-             fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            stelle.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+        }
+        if (string.Compare(nome, stelle.name) == 0)
+        {
+            stelle.GetComponent<Image>().color = Color.grey;
+            freno.GetComponent<Image>().color = Color.grey;
+            frenoamano.GetComponent<Image>().color = Color.white;
+            acceleratore.GetComponent<Image>().color = Color.white;
+            inverter.GetComponent<Image>().color = Color.white;
+            sterzo.GetComponent<Image>().color = Color.white;
+            joystick.GetComponent<Image>().color = Color.white;
+            opzioni.GetComponent<Image>().color = Color.white;
+            barravita.GetComponent<Image>().color = Color.white;
+            fps.GetComponent<TextMeshProUGUI>().color = Color.white;
+            tachimetro.GetComponent<Image>().color = Color.white;
+
+            stelle.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = true;
+            freno.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            frenoamano.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            acceleratore.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            inverter.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            sterzo.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            joystick.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            opzioni.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            barravita.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            fps.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
+            tachimetro.transform.parent.GetComponent<Lean.Touch.LeanPinchScale>().enabled = false;
         }
     }
 }
